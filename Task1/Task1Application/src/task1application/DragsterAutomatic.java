@@ -22,6 +22,7 @@ public class DragsterAutomatic extends A_Dragster
    private double distance;
    private double speed;
 
+   //
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
    /**
@@ -70,30 +71,38 @@ public class DragsterAutomatic extends A_Dragster
                 currRPM = this._engineModel.getRPM(timeInGear, gear);
             }                
         }
-            
         
-            
-        double distanceDelta = (currRPM / SECONDS_PER_MINUTE) * timeStep * gearRatio * FEET_PER_REVOLUTION;
-                        
+        this.report(currRPM);
+        
+        //calculate distance delta we covered during the time-step we just finished!
+        double distanceDelta = (currRPM / SECONDS_PER_MINUTE) * timeStep * gearRatio * FEET_PER_REVOLUTION;                
         //apply updates to cumulative values.
         this.distance += distanceDelta;
+        //update time
+        this.time += timeStep;
+        this.timeInGear += timeStep;
+        //calculate speed 
         this.speed = (distance/FEET_PER_MILE) / (time / SECONDS_PER_MINUTE/MINUTES_PER_HOUR);
-                
-        //report!
+           
+        
+
+
+        //check done
+        if(distance >= TRACK_LENGTH_FEET){
+            report(currRPM);
+            return true;
+        }
+        return false;
+   }
+   
+   
+   private void report(int currRPM){
         this.printTimeFormatted();
         System.out.print((int)Math.round(distance) +",");
         System.out.print((int)Math.round(speed) + ",");
         System.out.print(gear + ",");
         System.out.println(currRPM);
-        
-        //update time
-        this.time += timeStep;
-        this.timeInGear += timeStep;
-        
-        //check done
-        return distance >= TRACK_LENGTH_FEET;
    }
-   
     private void printTimeFormatted(){
         DecimalFormat format = new DecimalFormat("0.00");
         System.out.print(format.format(time) + ",");
