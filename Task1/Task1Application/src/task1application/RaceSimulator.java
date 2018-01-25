@@ -16,7 +16,7 @@ public class RaceSimulator
    {
       RaceSimulator simulator = new RaceSimulator();
 
-      int partNum = 1; // change this to match the part you are running
+      int partNum = 5; // change this to match the part you are running
 
       simulator.execute(partNum);
    }
