@@ -20,7 +20,7 @@ public class Simulation
    {
       Simulation simulation = new Simulation();
 
-      int testNum = 6; // change this to run each test separately
+      int testNum = 11; // change this to run each test separately
 
       System.out.println("Executing Test " + testNum);
 
@@ -318,7 +318,7 @@ public class Simulation
     */
    public void runTest5() throws IOException
    {
-double timeStep = 0.1; // don't touch
+        double timeStep = 0.1; // don't touch
 	    
         //setup variables
         double x = 0;
@@ -333,7 +333,7 @@ double timeStep = 0.1; // don't touch
         Airplane airplane = new Airplane(x, y, altitude, speed, filename);
 
         //set airplane initial conditions
-        airplane.setPitch(10);
+        airplane.setPitch(.60);
         airplane.setRoll(30);
 
         double time = 0;
@@ -356,31 +356,193 @@ double timeStep = 0.1; // don't touch
     */
    public void runTest6() throws IOException
    {
-      double timeStep = 0.1; // don't touch
+        double timeStep = 0.1; // don't touch
 	    
         //setup variables
         double x = 0;
         double y = 0;
         double altitude = 1000;
         double speed = 100;
-        String filename = getWorkingDir() + "/test_6";
+        String filename = getWorkingDir() + "/test_6_30";
 
         double timeLimit = 72; 
 
+        //create airplane, 30 degree bank
+        Airplane airplane30 = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane30.setPitch(0);
+        airplane30.setRoll(30);
+
+        double time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane30.update(timeStep);
+
+           time = airplane30.getTime();
+           
+           
+        }
+        airplane30.terminate(); // do not forget this
+        
+        //create airplane, 45 degree bank
+        timeLimit = 51;
+        filename = getWorkingDir() + "/test_6_45";
+        Airplane airplane45 = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane45.setPitch(0);
+        airplane45.setRoll(45);
+
+        time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane45.update(timeStep);
+
+           time = airplane45.getTime();
+           
+           
+        }
+        airplane45.terminate(); // do not forget this
+        
+        //create airplane, 60 degree bank
+        timeLimit = 41;
+        filename = getWorkingDir() + "/test_6_60";
+        Airplane airplane60 = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane60.setPitch(0);
+        airplane60.setRoll(60);
+
+        time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane60.update(timeStep);
+
+           time = airplane60.getTime();
+           
+           
+        }
+        airplane60.terminate(); // do not forget this
+   }
+
+   // ---------------------------------------------------------------------------------------------------------------------------------------------------------
+   /**
+    * Put Test 7 here.
+    */
+   public void runTest7() throws IOException
+   {
+     double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_7_50";
+
+        double timeLimit = 72; 
+
+        //create airplane, 30 degree bank
+        Airplane airplane50 = new Airplane(x, y, altitude, 50, filename);
+
+        //set airplane initial conditions
+        airplane50.setPitch(0);
+        airplane50.setRoll(30);
+
+        double time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane50.update(timeStep);
+
+           time = airplane50.getTime();
+           
+           
+        }
+        airplane50.terminate(); // do not forget this
+        
+        //create airplane, 45 degree bank
+        timeLimit = 72;
+        filename = getWorkingDir() + "/test_7_100";
+        Airplane airplane100 = new Airplane(x, y, altitude, 100, filename);
+
+        //set airplane initial conditions
+        airplane100.setPitch(0);
+        airplane100.setRoll(30);
+
+        time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane100.update(timeStep);
+
+           time = airplane100.getTime();
+           
+           
+        }
+        airplane100.terminate(); // do not forget this
+        
+        //create airplane, 60 degree bank
+        timeLimit = 72;
+        filename = getWorkingDir() + "/test_7_150";
+        Airplane airplane150 = new Airplane(x, y, altitude, 150, filename);
+
+        //set airplane initial conditions
+        airplane150.setPitch(0);
+        airplane150.setRoll(30);
+
+        time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane150.update(timeStep);
+
+           time = airplane150.getTime();
+           
+           
+        }
+        airplane150.terminate(); // do not forget this
+   }
+
+   // ---------------------------------------------------------------------------------------------------------------------------------------------------------
+   /**
+    * Put Test 8 here.
+    */
+   public void runTest8() throws IOException
+   {
+        double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_8";
+
+        double timeLimit = 72; 
+
+        double turnTime = 36;
+        
         //create airplane
         Airplane airplane = new Airplane(x, y, altitude, speed, filename);
 
         //set airplane initial conditions
-        airplane.setPitch(0.);
+        airplane.setPitch(.60);
         airplane.setRoll(30);
 
         double time = 0;
 
         while (time < timeLimit)
         {
-           airplane.update(timeStep);
+            if(time > turnTime)
+                airplane.setRoll(-30);
+            airplane.update(timeStep);
 
-           time = airplane.getTime();
+            time = airplane.getTime();
            
            
         }
@@ -390,29 +552,51 @@ double timeStep = 0.1; // don't touch
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
    /**
-    * Put Test 7 here.
-    */
-   public void runTest7() throws IOException
-   {
-      // your code
-   }
-
-   // ---------------------------------------------------------------------------------------------------------------------------------------------------------
-   /**
-    * Put Test 8 here.
-    */
-   public void runTest8() throws IOException
-   {
-      // your code
-   }
-
-   // ---------------------------------------------------------------------------------------------------------------------------------------------------------
-   /**
     * Put Test 9 here.
     */
    public void runTest9() throws IOException
    {
-      // your code
+        double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_9";
+
+        double timeLimit = 144; 
+
+        double changeSpeedTime = 36;
+        double secondSpeedChange = 72;
+        
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(.60);
+        airplane.setRoll(30);
+
+        double time = 0;
+
+        while (time < timeLimit)
+        {
+            if(time > changeSpeedTime)
+                airplane.setSpeed(150);
+            
+            if(time > secondSpeedChange)
+                airplane.setSpeed(200);
+            
+            airplane.update(timeStep);
+
+            
+            
+            time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -421,7 +605,111 @@ double timeStep = 0.1; // don't touch
     */
    public void runTest10() throws IOException
    {
-      // your code
+      double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_10";
+
+        double timeLimit = 300; 
+
+        //waypoints
+        
+        //accelerate and pitch up!
+        double way1 = 43;   
+        
+        //level off and turn
+        double way2 = way1 + 16;
+        
+        //stop turning, continue climbing.
+        double way3 = way2 + 18;    //it takes 72 seconds to turn at 30 degrees of bank. 
+        
+        //stop climbing
+        double way4 = way1 + 34;
+        
+        //turn onto westbound leg
+        double way5 = way4 + 18;
+
+        //abeam of origin, shed altitude
+        double way6 = way4 + 55;
+        
+        //at 750, turn on to southbound leg        
+        double way7 = way6 + 19;
+        
+        //turned onto the soutbound leg.
+        double way8 = way7 +18;
+        
+        //at 500, level off
+        //double way9 = way7+19;
+        
+        //align with runway
+        double way10 = way8 + 18;
+        
+        //level off onto runway surface.
+        double way11 = way10 + 8;
+        
+        //roll halfway down the runway.
+        double way12 = way11 + 28;
+        //create airplane
+        Airplane airplane = new Airplane(x, y, 0, 60, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(0f);
+        airplane.setRoll(0f);
+
+        double time = 0;
+
+        while (time < way12 + 1)
+        {
+            if(time > way1){
+                airplane.setPitch(60);
+                airplane.setSpeed(80);
+            }
+            if(time > way2){
+                airplane.setRoll(-30);
+            }
+            if(time > way3){
+                airplane.setRoll(0);
+            }
+            if(time > way4){
+                airplane.setPitch(0);
+                airplane.setRoll(-30);
+            }
+            if(time > way5){
+                airplane.setRoll(0);
+            }
+            if(time > way6){
+                airplane.setPitch(-30);
+            }
+            if(time > way7){
+                airplane.setRoll(-30);
+            }
+            if(time > way8){
+                //airplane.setRoll(0);
+            }
+            if(time > way10){
+                 airplane.setRoll(0);    
+                 airplane.setSpeed(60);
+            }
+            if(time > way11){
+                airplane.setPitch(0);
+            }
+            if(time > way12){
+                airplane.setSpeed(0);
+            }
+            airplane.update(timeStep);
+
+            
+            
+            time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -430,7 +718,45 @@ double timeStep = 0.1; // don't touch
     */
    public void runTest11() throws IOException
    {
-      // your code
+        double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_11";
+
+        //double timeLimit = 99999; 
+
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(0);
+        airplane.setRoll(0);
+
+        double time = 0;
+
+        double pitch = 0;
+        
+        while (pitch < 360)
+        {
+            if((time %3) < timeStep && pitch <= 360){
+                pitch += 10;
+                airplane.setPitch(pitch);
+            }
+            
+            airplane.update(timeStep);
+
+            
+            
+            time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
