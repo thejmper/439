@@ -20,7 +20,7 @@ public class Simulation
    {
       Simulation simulation = new Simulation();
 
-      int testNum = 11; // change this to run each test separately
+      int testNum = 18; // change this to run each test separately
 
       System.out.println("Executing Test " + testNum);
 
@@ -765,7 +765,38 @@ public class Simulation
     */
    public void runTest12() throws IOException
    {
-      // your code
+      double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_12";
+
+        double timeLimit = 72; 
+
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(.60);
+        airplane.setRoll(30);
+        airplane.setWind(45,10);
+        
+        double time = 0;
+
+        
+        while (time < timeLimit)
+        {
+           airplane.update(timeStep);
+
+           time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -774,7 +805,38 @@ public class Simulation
     */
    public void runTest13() throws IOException
    {
-      // your code
+      double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_13";
+
+        double timeLimit = 72; 
+
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(.60);
+        airplane.setRoll(-30);
+        airplane.setWind(45,10);
+        
+        double time = 0;
+
+        
+        while (time < timeLimit)
+        {
+           airplane.update(timeStep);
+
+           time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -783,7 +845,41 @@ public class Simulation
     */
    public void runTest14() throws IOException
    {
-      // your code
+      double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_14";
+
+        double timeLimit = 72; 
+
+        double turnTime = 36;
+        
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(.60);
+        airplane.setRoll(30);
+        airplane.setWind(45,10);
+
+        double time = 0;
+
+        while (time < timeLimit)
+        {
+            if(time > turnTime)
+                airplane.setRoll(-30);
+            airplane.update(timeStep);
+
+            time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -792,7 +888,112 @@ public class Simulation
     */
    public void runTest15() throws IOException
    {
-      // your code
+ double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_15";
+
+        double timeLimit = 300; 
+
+        //waypoints
+        
+        //accelerate and pitch up!
+        double way1 = 43;   
+        
+        //level off and turn
+        double way2 = way1 + 16;
+        
+        //stop turning, continue climbing.
+        double way3 = way2 + 18;    //it takes 72 seconds to turn at 30 degrees of bank. 
+        
+        //stop climbing
+        double way4 = way1 + 34;
+        
+        //turn onto westbound leg
+        double way5 = way4 + 18;
+
+        //abeam of origin, shed altitude
+        double way6 = way4 + 55;
+        
+        //at 750, turn on to southbound leg        
+        double way7 = way6 + 19;
+        
+        //turned onto the soutbound leg.
+        double way8 = way7 +18;
+        
+        //at 500, level off
+        //double way9 = way7+19;
+        
+        //align with runway
+        double way10 = way8 + 18;
+        
+        //level off onto runway surface.
+        double way11 = way10 + 8;
+        
+        //roll halfway down the runway.
+        double way12 = way11 + 28;
+        //create airplane
+        Airplane airplane = new Airplane(x, y, 0, 60, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(0f);
+        airplane.setRoll(0f);
+        airplane.setWind(45,10);
+        
+        double time = 0;
+
+        while (time < way12 + 1)
+        {
+            if(time > way1){
+                airplane.setPitch(60);
+                airplane.setSpeed(80);
+            }
+            if(time > way2){
+                airplane.setRoll(-30);
+            }
+            if(time > way3){
+                airplane.setRoll(0);
+            }
+            if(time > way4){
+                airplane.setPitch(0);
+                airplane.setRoll(-30);
+            }
+            if(time > way5){
+                airplane.setRoll(0);
+            }
+            if(time > way6){
+                airplane.setPitch(-30);
+            }
+            if(time > way7){
+                airplane.setRoll(-30);
+            }
+            if(time > way8){
+                //airplane.setRoll(0);
+            }
+            if(time > way10){
+                 airplane.setRoll(0);    
+                 airplane.setSpeed(60);
+            }
+            if(time > way11){
+                airplane.setPitch(0);
+            }
+            if(time > way12){
+                airplane.setSpeed(0);
+            }
+            airplane.update(timeStep);
+
+            
+            
+            time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -801,7 +1002,36 @@ public class Simulation
     */
    public void runTest16() throws IOException
    {
-      // your code
+      double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_16";
+
+        double timeLimit = 30; 
+
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(0);
+        airplane.setRoll(0);
+        airplane.setWind(45,10);
+           
+        
+        double time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane.update(timeStep);
+
+           time = airplane.getTime();
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -810,7 +1040,35 @@ public class Simulation
     */
    public void runTest17() throws IOException
    {
-      // your code
+        double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_17";
+
+        double timeLimit = 30; 
+
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(0);
+        airplane.setRoll(1);        
+        airplane.setWind(45,10);
+
+        double time = 0;
+
+        while (time < timeLimit)
+        {
+           airplane.update(timeStep);
+
+           time = airplane.getTime();
+        }
+
+      airplane.terminate(); // do not forget this
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -819,7 +1077,51 @@ public class Simulation
     */
    public void runTest18() throws IOException
    {
-      // your code
+double timeStep = 0.1; // don't touch
+	    
+        //setup variables
+        double x = 0;
+        double y = 0;
+        double altitude = 1000;
+        double speed = 100;
+        String filename = getWorkingDir() + "/test_18";
+
+        double timeLimit = 54; 
+
+        //create airplane
+        Airplane airplane = new Airplane(x, y, altitude, speed, filename);
+
+        //set airplane initial conditions
+        airplane.setPitch(.60);
+        airplane.setRoll(30);
+        airplane.setWind(45,10);
+
+        double time = 0;
+
+        double way1 = 15;
+        double way2 = 30;
+        double way3 = 45;
+        double way4 = 53;
+        
+        while (time < timeLimit)
+        {
+            if(time > way1){
+                airplane.setRoll(45);
+            }
+            if(time > way2){
+                airplane.setRoll(50);
+            }
+            if(time > way3){
+                airplane.setRoll(55);
+            }
+           
+           airplane.update(timeStep);           
+           time = airplane.getTime();
+           
+           
+        }
+
+      airplane.terminate(); // do not forget this        
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------

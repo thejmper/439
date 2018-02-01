@@ -25,3 +25,4 @@ hs_err_pid*
 *.ods#
 /Task2/Task2Application/nbproject/private/
 /Task2/Task2Application/build/
+/Task2/Task2Application/dist/
