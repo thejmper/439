@@ -6,7 +6,7 @@ import java.io.IOException;
  *
  * PUT YOUR SIMULATIONS HERE. KEEP EACH TEST SEPARATE. DO NOT CHANGE Airplane.
  * 
- * PUT YOUR NAME HERE.
+ * Jonathan Pfefferle
  */
 public class Simulation
 {
