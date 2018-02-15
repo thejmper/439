@@ -10,7 +10,7 @@ public class Task3
    // SELECT YOUR TEST AND ADJUST THE VIEWER HERE
    public static void main(final String[] arguments)
    {
-      String testDesignator = "7"; // get these from the task description
+      String testDesignator = "2.A"; // get these from the task description
 
       new Task3(testDesignator);
    }
@@ -27,7 +27,7 @@ public class Task3
 
       double timeStep = 0.1; // time step in seconds; do not change
       
-      double runToTime = Double.MAX_VALUE; // how long to run in simulation seconds before terminating automatically; collisions terminate at any time; set as needed below
+      double runToTime = 120000; // how long to run in simulation seconds before terminating automatically; collisions terminate at any time; set as needed below
 
       int frameDelay = 50; // milliseconds between viewer updates; you may change this depending on how well your machine handles the graphics
 
@@ -49,23 +49,31 @@ public class Task3
 
          case "1.B":
          {
-//        	 // add whatever you need
-        	 
-        	 break;
+            Body bodyA = new Body("A", -150000, 0, 1, 0, 30000, true);
+            Body bodyB = new Body("B", +150000, 0, -1, 0, 30000, true);
+
+            launch(zoomFactor, frameDelay, timeStep, runToTime, analyzer, bodyA, bodyB);
+                break;
          }
          
          case "1.C":
          {
-        	 // add whatever you need
-        	 
+            // add whatever you need
+            Body bodyA = new Body("A", -150000, 0, -.5, 0, 30000, true);
+            Body bodyB = new Body("B", +150000, 0, .5, 0, 30000, true);
+
+            launch(zoomFactor, frameDelay, timeStep, runToTime, analyzer, bodyA, bodyB);
         	 break;
          }
          
          case "2.A":
          {
-         	 // add whatever you need
+            Body bodyA = new Body("A", -150000, -65000, 1, 0, 30000, true);
+            Body bodyB = new Body("B", +150000, 65000, -1, 0, 30000, true);
+
+            launch(zoomFactor, frameDelay, timeStep, runToTime, analyzer, bodyA, bodyB);
         	 
-        	 break;
+            break;
          }
          
          case "2.B":
