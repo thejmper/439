@@ -65,7 +65,8 @@ public class Bomber
 
       if (_isOutputEnabled)
       {
-         System.out.println("time,bomber_x,bomber_y,bomber_error_x,bomber_error_y,bomb_x,bomb_y,bomb_error_x,bomb_error_y");
+         //System.out.println("time,bomber_x,bomber_y,bomber_error_x,bomber_error_y,bomb_x,bomb_y,bomb_error_x,bomb_error_y");
+         System.out.println("time,bomber_x,bomber_y,bomb_x,bomb_y,bomb_error_x,bomb_error_y");     
       }
    }
 
