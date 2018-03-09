@@ -3,6 +3,9 @@
  * Defines the simulation.
  *
  * CHANGE ANYTHING YOU WANT HERE.
+ *
+ *	Jonathan Pfefferle
+ *
  */
 public class Simulation
 {
