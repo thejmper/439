@@ -1,0 +1,2 @@
+WarLength,Loss chance,Avg Time,stdev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev,LegCount, stdDev
+6,1.0E-5,52558.0,0.0,59.65,6.753361735968399,4.19290648E8,1420928.2218055099,4432.5,927.826407311876,4778.0,0.0

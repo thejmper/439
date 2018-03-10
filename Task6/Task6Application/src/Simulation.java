@@ -23,8 +23,15 @@ public class Simulation {
         
         //testA1();   //plane, bulk cargo, short war
         //testA2();   //ship, bulk carco, short war
-        testB1();
         
+        //testB1();   //plane, bulk cargo, long war
+        //testB2();   //ship, bulk cargo, long war.
+        
+        testC1();
+        testC2();
+        
+        testD1();
+        testD2();
         
     }
     
@@ -67,7 +74,7 @@ public class Simulation {
         
         PrintWriter pw = new PrintWriter(new File("testA1.csv"));
         StringBuilder sb = new StringBuilder();
-        sb.append("Loss chance,Avg Time,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev, LegCount, stdDev");        
+        sb.append("Loss chance,Avg Time,stdDev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev, LegCount, stdDev");        
         sb.append(System.getProperty("line.separator"));
 
         SimulateMultipleConvoys(numTransports, transportCapacity, lossChance, tripLegLength, runTime, numRuns, sb);
@@ -116,21 +123,181 @@ public class Simulation {
         
         System.out.println("TestB1: Plane bulk cargo, long war");
         
-        PrintWriter pw = new PrintWriter(new File("testB1.csv"));
-        StringBuilder sb = new StringBuilder();
-        sb.append("WarLength,Loss chance,Avg Time,stdev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev,LegCount, stdDev");        
-        sb.append(System.getProperty("line.separator"));
+       
         
-        for(int years = 4; years < 6;){
+        for(int years = 5; years <= 6;){
+            PrintWriter pw = new PrintWriter(new File("testB1Year" + years + ".csv"));
+            StringBuilder sb = new StringBuilder();
+            sb.append("WarLength,Loss chance,Avg Time,stdev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev,LegCount, stdDev");        
+            sb.append(System.getProperty("line.separator"));
+            
             int runTime = years * 365 * 24;
             sb.append(years +",");
             SimulateMultipleConvoys(numTransports, transportCapacity, lossChance, tripLegLength, runTime, numRuns, sb);
             
             years++;
+            pw.write(sb.toString());
+            pw.close();
+        }
+        
+
+        System.out.println("done!");
+    }
+    //simulate a longer war
+    private static void testB2() throws FileNotFoundException{
+        //when scaled to 1941 dollars, Spruce Geese cost 1.65 million each. Liberty ships cost 2 million give or take.
+        
+        int numTransports = 1000;           //always start with 2 bilion dollars worth of hardware. 
+        float transportCapacity = 10000f;   //long tons
+        //float lossChance = 0.00001f;      //1 out of every 100,000 flights is an accident. 40 times worse than modern airlines.
+        int tripLegLength = 360;            //Halifax to Liverpool convoy route known to  be 15 days. 15 * 24 = 360 hours
+        //int runTime = 365 * 24 * 4;         //4 years converted to hours.
+        int numRuns = NUM_RUNS;                   //always run in 25 run chunks.
+        
+        System.out.println("TestB2: Ship bulk cargo, long war");
+        
+       
+        
+        for(int years = 5; years <= 6;){
+            PrintWriter pw = new PrintWriter(new File("testB2Year" + years + ".csv"));
+            StringBuilder sb = new StringBuilder();
+            sb.append("WarLength,Loss chance,Avg Time,stdev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev,LegCount, stdDev");        
+            sb.append(System.getProperty("line.separator"));
+            
+            int runTime = years * 365 * 24;
+           
+            for(float lossChance = 0; lossChance <= .05; lossChance += .001){
+                sb.append(years +",");
+                SimulateMultipleConvoys(numTransports, transportCapacity, lossChance, tripLegLength, runTime, numRuns, sb);
+            }            
+            years++;
+            pw.write(sb.toString());
+            pw.close();
+        }
+        
+
+        System.out.println("done!");
+    }
+    
+    
+    
+    //same as the above, but with troops instead!
+    private static void testC1() throws FileNotFoundException{
+        //when scaled to 1941 dollars, Spruce Geese cost 1.65 million each. Liberty ships cost 2 million give or take.
+        
+        int numTransports = 1200;           //always start with 2 bilion dollars worth of hardware. 
+        float transportCapacity = 150f;   //troops
+        float lossChance = 0.00001f;        //1 out of every 100,000 flights is an accident. 40 times worse than modern airlines.
+        int tripLegLength = 11;             //Halifax to Liverpool (~2718 miles) / cruise speed (250 mph)
+        int runTime = 365 * 24 * 4;         //4 years converted to hours.
+        int numRuns = NUM_RUNS;                 //always run in thousand-trip chunks.
+        
+        System.out.println("TestC1: Plane troops, short war");
+        
+        PrintWriter pw = new PrintWriter(new File("testC1.csv"));
+        StringBuilder sb = new StringBuilder();
+        sb.append("Loss chance,Avg Time,stdDev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev, LegCount, stdDev");        
+        sb.append(System.getProperty("line.separator"));
+
+        SimulateMultipleConvoys(numTransports, transportCapacity, lossChance, tripLegLength, runTime, numRuns, sb);
+        pw.write(sb.toString());
+        pw.close();
+        System.out.println("done!");
+    }
+    //test 2: simulate 4 year war with ships
+    private static void testC2() throws FileNotFoundException{
+        //when scaled to 1941 dollars, Spruce Geese cost 1.65 million each. Liberty ships cost 2 million give or take.
+        
+        int numTransports = 1000;           //always start with 2 bilion dollars worth of hardware. 
+        float transportCapacity = 550f;     //armed troops
+        //float lossChance = 0.00001f;      //1 out of every 100,000 flights is an accident. 40 times worse than modern airlines.
+        int tripLegLength = 360;            //Halifax to Liverpool convoy route known to  be 15 days. 15 * 24 = 360 hours
+        int runTime = 365 * 24 * 4;         //4 years converted to hours.
+        int numRuns = NUM_RUNS;                   //always run in 25 run chunks.
+        
+        System.out.println("TestC2: Ship troops, short war");
+        
+        PrintWriter pw = new PrintWriter(new File("testC2.csv"));
+        StringBuilder sb = new StringBuilder();
+        sb.append("Loss chance,Avg Time,stdDev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev,LegCount, stdDev");        
+        sb.append(System.getProperty("line.separator"));
+                
+        //Convoy.PrintHeader();
+        for(float lossChance = 0; lossChance <= .05; lossChance += .001){
+            SimulateMultipleConvoys(numTransports, transportCapacity, lossChance, tripLegLength, runTime, numRuns, sb);
         }
         
         pw.write(sb.toString());
         pw.close();
+        System.out.println("done!");        
+    }
+    
+    //simulate a war lasting somewhere between 4 and 14 years.
+    private static void testD1() throws FileNotFoundException{
+        //when scaled to 1941 dollars, Spruce Geese cost 1.65 million each. Liberty ships cost 2 million give or take.
+        
+        int numTransports = 1200;           //always start with 2 bilion dollars worth of hardware. 
+        float transportCapacity = 150f;     //troops
+        float lossChance = 0.00001f;        //1 out of every 100,000 flights is an accident. 40 times worse than modern airlines.
+        int tripLegLength = 11;             //Halifax to Liverpool (~2718 miles) / cruise speed (250 mph)
+        //int runTime = 365 * 24 * 4;         //4 years converted to hours.
+        int numRuns = NUM_RUNS;                 //always run in thousand-trip chunks.
+        
+        System.out.println("TestD1: Plane troops, long war");
+        
+       
+        
+        for(int years = 5; years <= 6;){
+            PrintWriter pw = new PrintWriter(new File("testD1Year" + years + ".csv"));
+            StringBuilder sb = new StringBuilder();
+            sb.append("WarLength,Loss chance,Avg Time,stdev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev,LegCount, stdDev");        
+            sb.append(System.getProperty("line.separator"));
+            
+            int runTime = years * 365 * 24;
+            sb.append(years +",");
+            SimulateMultipleConvoys(numTransports, transportCapacity, lossChance, tripLegLength, runTime, numRuns, sb);
+            
+            years++;
+            pw.write(sb.toString());
+            pw.close();
+        }
+        
+
+        System.out.println("done!");
+    }
+    //simulate a longer war
+    private static void testD2() throws FileNotFoundException{
+        //when scaled to 1941 dollars, Spruce Geese cost 1.65 million each. Liberty ships cost 2 million give or take.
+        
+        int numTransports = 1000;           //always start with 2 bilion dollars worth of hardware. 
+        float transportCapacity = 550f;     //troops
+        //float lossChance = 0.00001f;      //1 out of every 100,000 flights is an accident. 40 times worse than modern airlines.
+        int tripLegLength = 360;            //Halifax to Liverpool convoy route known to  be 15 days. 15 * 24 = 360 hours
+        //int runTime = 365 * 24 * 4;         //4 years converted to hours.
+        int numRuns = NUM_RUNS;                   //always run in 25 run chunks.
+        
+        System.out.println("TestD2: Ship troops, long war");
+        
+       
+        
+        for(int years = 5; years <= 6;){
+            PrintWriter pw = new PrintWriter(new File("testD2Year" + years + ".csv"));
+            StringBuilder sb = new StringBuilder();
+            sb.append("WarLength,Loss chance,Avg Time,stdev,Avg transport Loss, stdDev, Avg Cargo Delivered, stdDev, Avg Cargo Lost, stdDev,LegCount, stdDev");        
+            sb.append(System.getProperty("line.separator"));
+            
+            int runTime = years * 365 * 24;
+           
+            for(float lossChance = 0; lossChance <= .05; lossChance += .001){
+                sb.append(years +",");
+                SimulateMultipleConvoys(numTransports, transportCapacity, lossChance, tripLegLength, runTime, numRuns, sb);
+            }            
+            years++;
+            pw.write(sb.toString());
+            pw.close();
+        }
+        
+
         System.out.println("done!");
     }
     
