@@ -40,12 +40,12 @@ public class Simulation
 
       // populate the traffic-light transitions
       TrafficQueue queue = new TrafficQueue("queue");
-
-      populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread); 
-
+      populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
       // populate the cars randomly
       populateCars(queue, simulationRunTime, lambda, randomSeed);
-
+      
+      this.PrintSeperator();      
+      
       // execute the simulation and generate a histogram 
       executeSimulation(queue, bucketSize);
    }
@@ -59,9 +59,59 @@ public class Simulation
     */
    private void executeSimulation(final TrafficQueue queue, double bucketSize)
    {
-      // TODO: create the five analysis groups
+        AnalysisGroup all = new AnalysisGroup("all", 0);
+        AnalysisGroup onGreenAll = new AnalysisGroup("on_green:all", 0);
+        AnalysisGroup onRedAll = new AnalysisGroup("on_red:all", 0);
+        
+        int lightCount = 1;
+        
+        AnalysisGroup onGreenLocal = new AnalysisGroup("on_green:" + lightCount++,0);
+        AnalysisGroup onRedLocal = new AnalysisGroup("on_red:" + lightCount++,0);
 
-      // TODO: keep looping while the queue has events
+        boolean isGreen = false;
+        double lastTime = 0;
+        while(queue.hasEvents()){
+            List<Event> events = queue.service();
+            
+            for(int i = 0; i < events.size(); i++){
+                Event event = events.get(i);
+                double time = event.getTime();
+                lastTime = time;
+                if(event.getType().equals(Event.E_EventType.CAR_ARRIVAL)){
+                    all.addEventTime(time);
+                    
+                    if(isGreen){
+                        onGreenAll.addEventTime(time);
+                        onGreenLocal.addEventTime(time);
+                    }
+                    else{
+                        onRedAll.addEventTime(time);
+                        onRedLocal.addEventTime(time);
+                    }
+                }
+                else if(event.getType().equals(Event.E_EventType.LIGHT_TO_GREEN)){
+                    all.addEventSeparator(time);
+                    onRedAll.addEventSeparator(time);
+                    onRedLocal.finalizeInterval(time);
+                    onRedLocal = new AnalysisGroup("on_red:" + lightCount++, time);
+                } else {
+                    all.addEventSeparator(time);
+                    onGreenAll.addEventSeparator(time);
+                    onGreenLocal.finalizeInterval(time);
+                    onGreenLocal = new AnalysisGroup("on_green:" + lightCount++, time);
+                }
+            }
+        }
+        all.finalizeInterval(lastTime);
+        onGreenAll.finalizeInterval(lastTime);
+        onRedAll.finalizeInterval(lastTime);
+        
+        all.generateHistogram(bucketSize);
+        onGreenAll.generateHistogram(bucketSize);
+        onRedAll.generateHistogram(bucketSize);
+      // TODO: create the five analysis groups
+ 
+     // TODO: keep looping while the queue has events
 
       // TODO: > pop off all events queued up for this turn of the light
 
@@ -89,13 +139,23 @@ public class Simulation
     */
    private void populateCars(final TrafficQueue queue, final double simulationRunTime, final double lambda, final int randomSeed)
    {
-      // TODO: create a java.util.Random object random with randomSeed 
-
-      // TODO: starting at current time 0, loop until it reaches or exceeds simulationRunTime
-
-      // TODO: > generate a random time with lambda from the exponential-distribution formula in the specs
-         
-      // TODO: create a CAR_ARRIVAL event at this time, add it to the queue, and advance the current time by this amount 
+        // TODO: create a java.util.Random object random with randomSeed 
+        Random rng = new Random(randomSeed);
+        double time = 0;
+        int i = 1;
+        while(time < simulationRunTime){
+            // TODO: starting at current time 0, loop until it reaches or exceeds simulationRunTime
+            // TODO: > generate a random time with lambda from the exponential-distribution formula in the specs
+            // TODO: create a CAR_ARRIVAL event at this time, add it to the queue, and advance the current time by this amount   
+            
+            double randomTime = Math.log(1-rng.nextDouble()) / -lambda;
+            time+= randomTime;
+            if(time > simulationRunTime)
+                break;
+            Event event = new Event(time, "car_" + i++, Event.E_EventType.CAR_ARRIVAL);
+            queue.addEvent(event);
+        }
+  
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -116,9 +176,11 @@ public class Simulation
                                final double startTimeGreen,
                                final double intervalGreen)
    {
-      // TODO: call populateTransitions for the LIGHT_TO_RED transitions
-      
-      // TODO: call populateTransitions for the LIGHT_TO_GREEN transitions
+        // TODO: call populateTransitions for the LIGHT_TO_RED transitions
+        this.populateTransitions(queue, Event.E_EventType.LIGHT_TO_RED, startTimeRed, simulationRunTime, intervalRed);
+        // TODO: call populateTransitions for the LIGHT_TO_GREEN transitions
+        this.populateTransitions(queue, Event.E_EventType.LIGHT_TO_GREEN, startTimeGreen, simulationRunTime, intervalGreen);
+
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -137,6 +199,17 @@ public class Simulation
                                     final double timeEnd, 
                                     final double timeStep)
    {
-      // TODO: loop from timeStart up to and including timeEnd by timeStep, create an event for each, and add it to the queue
+        // TODO: loop from timeStart up to and including timeEnd by timeStep, create an event for each, and add it to the queue
+        int i = 1;
+        for(double time = timeStart; time <= timeEnd; time+= timeStep){
+            Event event = new Event(time, "transition_" + i, type);
+            queue.addEvent(event);     
+            i++;
+        }
+   }
+   
+   //--helper methods--//
+   private void PrintSeperator(){
+      System.out.println("---------------------------------------------------------------------------------------------------"); 
    }
 }
