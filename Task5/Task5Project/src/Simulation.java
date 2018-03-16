@@ -50,6 +50,199 @@ public class Simulation
       executeSimulation(queue, bucketSize);
    }
 
+   private void doTest1(){
+    int randomSeed = 2;
+     double lambda = 0.75; // the random arrival rate of cars; larger is more frequent
+
+     double simulationRunTime = 300; // the total number of seconds to simulate
+
+     double lengthGreen = 30; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+     double lengthRed = 30;
+
+     double spread = (lengthGreen + lengthRed);
+
+     double bucketSize = 10; // the size of the histogram buckets in seconds
+
+     // populate the traffic-light transitions
+     TrafficQueue queue = new TrafficQueue("queue");
+     populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+     // populate the cars randomly
+     populateCars(queue, simulationRunTime, lambda, randomSeed);
+
+     this.PrintSeperator();      
+
+     // execute the simulation and generate a histogram 
+     executeSimulation(queue, bucketSize);      
+   } 
+   private void doTest2(){
+       int randomSeed = 1; 
+
+      double lambda = 0.5; // the random arrival rate of cars; larger is more frequent
+
+      double simulationRunTime = 300; // the total number of seconds to simulate
+
+      double lengthGreen = 30; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+      double lengthRed = 30;
+      
+      double spread = (lengthGreen + lengthRed);
+
+      double bucketSize = 10; // the size of the histogram buckets in seconds
+
+      // populate the traffic-light transitions
+      TrafficQueue queue = new TrafficQueue("queue");
+      populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+      // populate the cars randomly
+      populateCars(queue, simulationRunTime, lambda, randomSeed);
+      
+      this.PrintSeperator();      
+      
+      // execute the simulation and generate a histogram 
+      executeSimulation(queue, bucketSize);
+   }
+   private void doTest3(){
+     int randomSeed = 2;
+     double lambda = 5.0; // the random arrival rate of cars; larger is more frequent
+
+     double simulationRunTime = 300; // the total number of seconds to simulate
+
+     double lengthGreen = 30; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+     double lengthRed = 30;
+
+     double spread = (lengthGreen + lengthRed);
+
+     double bucketSize = 10; // the size of the histogram buckets in seconds
+
+     // populate the traffic-light transitions
+     TrafficQueue queue = new TrafficQueue("queue");
+     populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+     // populate the cars randomly
+     populateCars(queue, simulationRunTime, lambda, randomSeed);
+
+     this.PrintSeperator();      
+
+     // execute the simulation and generate a histogram 
+     executeSimulation(queue, bucketSize);      
+   }
+   private void doTest4(){
+    int randomSeed = 2;
+     double lambda = 0.75; // the random arrival rate of cars; larger is more frequent
+
+     double simulationRunTime = 300; // the total number of seconds to simulate
+
+     double lengthGreen = 45; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+     double lengthRed = 30;
+
+     double spread = (lengthGreen + lengthRed);
+
+     double bucketSize = 10; // the size of the histogram buckets in seconds
+
+     // populate the traffic-light transitions
+     TrafficQueue queue = new TrafficQueue("queue");
+     populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+     // populate the cars randomly
+     populateCars(queue, simulationRunTime, lambda, randomSeed);
+
+     this.PrintSeperator();      
+
+     // execute the simulation and generate a histogram 
+     executeSimulation(queue, bucketSize);      
+   }
+   private void doTest5(){
+    int randomSeed = 2;
+     double lambda = 0.75; // the random arrival rate of cars; larger is more frequent
+
+     double simulationRunTime = 300; // the total number of seconds to simulate
+
+     double lengthGreen = 30; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+     double lengthRed = 45;
+
+     double spread = (lengthGreen + lengthRed);
+
+     double bucketSize = 10; // the size of the histogram buckets in seconds
+
+     // populate the traffic-light transitions
+     TrafficQueue queue = new TrafficQueue("queue");
+     populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+     // populate the cars randomly
+     populateCars(queue, simulationRunTime, lambda, randomSeed);
+
+     this.PrintSeperator();      
+
+     // execute the simulation and generate a histogram 
+     executeSimulation(queue, bucketSize);      
+   }
+   private void doTest6(){
+    int randomSeed = 2;
+     double lambda = 0.75; // the random arrival rate of cars; larger is more frequent
+
+     double simulationRunTime = 300; // the total number of seconds to simulate
+
+     double lengthGreen = 10; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+     double lengthRed = 10;
+
+     double spread = (lengthGreen + lengthRed);
+
+     double bucketSize = 10; // the size of the histogram buckets in seconds
+
+     // populate the traffic-light transitions
+     TrafficQueue queue = new TrafficQueue("queue");
+     populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+     // populate the cars randomly
+     populateCars(queue, simulationRunTime, lambda, randomSeed);
+
+     this.PrintSeperator();      
+
+     // execute the simulation and generate a histogram 
+     executeSimulation(queue, bucketSize);      
+   }
+   private void doTest8(){
+     int randomSeed = 2;
+     double lambda = 5.0; // the random arrival rate of cars; larger is more frequent
+
+     double simulationRunTime = 300; // the total number of seconds to simulate
+
+     double lengthGreen = 30; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+     double lengthRed = 30;
+
+     double spread = (lengthGreen + lengthRed);
+
+     double bucketSize = 15; // the size of the histogram buckets in seconds
+
+     // populate the traffic-light transitions
+     TrafficQueue queue = new TrafficQueue("queue");
+     populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+     // populate the cars randomly
+     populateCars(queue, simulationRunTime, lambda, randomSeed);
+
+     this.PrintSeperator();      
+
+     // execute the simulation and generate a histogram 
+     executeSimulation(queue, bucketSize);      
+   }
+   private void doTest9(){
+     int randomSeed = 2;
+     double lambda = 5.0; // the random arrival rate of cars; larger is more frequent
+
+     double simulationRunTime = 300; // the total number of seconds to simulate
+
+     double lengthGreen = 30; // red every 30 seconds starting at 30, green every 30 seconds starting at 60
+     double lengthRed = 30;
+
+     double spread = (lengthGreen + lengthRed);
+
+     double bucketSize = 15; // the size of the histogram buckets in seconds
+
+     // populate the traffic-light transitions
+     TrafficQueue queue = new TrafficQueue("queue");
+     populateLights(queue, simulationRunTime, lengthGreen, spread, spread, spread);
+     // populate the cars randomly
+     populateCars(queue, simulationRunTime, lambda, randomSeed);
+
+     this.PrintSeperator();      
+
+     // execute the simulation and generate a histogram 
+     executeSimulation(queue, bucketSize);      
+   }
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
    /**
     * Executes the simulation after setting it up with events.
