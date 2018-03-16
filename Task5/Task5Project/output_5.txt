@@ -1,0 +1,1467 @@
+QUEUE 'queue' ADDED Event[time=30.0 id='transition_1' type=LIGHT_TO_RED]
+QUEUE 'queue' ADDED Event[time=105.0 id='transition_2' type=LIGHT_TO_RED]
+QUEUE 'queue' ADDED Event[time=180.0 id='transition_3' type=LIGHT_TO_RED]
+QUEUE 'queue' ADDED Event[time=255.0 id='transition_4' type=LIGHT_TO_RED]
+QUEUE 'queue' ADDED Event[time=75.0 id='transition_1' type=LIGHT_TO_GREEN]
+QUEUE 'queue' ADDED Event[time=150.0 id='transition_2' type=LIGHT_TO_GREEN]
+QUEUE 'queue' ADDED Event[time=225.0 id='transition_3' type=LIGHT_TO_GREEN]
+QUEUE 'queue' ADDED Event[time=300.0 id='transition_4' type=LIGHT_TO_GREEN]
+QUEUE 'queue' ADDED Event[time=1.8 id='car_1' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=4.8 id='car_2' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=5.8 id='car_3' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=11.4 id='car_4' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=14.0 id='car_5' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=19.9 id='car_6' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=20.2 id='car_7' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=20.3 id='car_8' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=22.1 id='car_9' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=26.1 id='car_10' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=26.2 id='car_11' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=27.7 id='car_12' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=30.3 id='car_13' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=30.3 id='car_14' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=31.0 id='car_15' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=31.6 id='car_16' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=38.4 id='car_17' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=39.5 id='car_18' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=40.3 id='car_19' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=40.4 id='car_20' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=41.6 id='car_21' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=44.1 id='car_22' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=44.5 id='car_23' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=44.7 id='car_24' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=49.1 id='car_25' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=49.5 id='car_26' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=50.7 id='car_27' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=52.0 id='car_28' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=52.4 id='car_29' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=54.8 id='car_30' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=56.4 id='car_31' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=58.5 id='car_32' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=58.7 id='car_33' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=58.8 id='car_34' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=58.9 id='car_35' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=62.5 id='car_36' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=62.9 id='car_37' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=64.0 id='car_38' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=64.3 id='car_39' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=64.5 id='car_40' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=64.6 id='car_41' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=64.8 id='car_42' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=64.8 id='car_43' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=65.7 id='car_44' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=66.5 id='car_45' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=66.9 id='car_46' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=69.0 id='car_47' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=70.9 id='car_48' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=71.5 id='car_49' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=73.2 id='car_50' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=76.1 id='car_51' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=76.8 id='car_52' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=77.1 id='car_53' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=77.3 id='car_54' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=77.6 id='car_55' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=78.7 id='car_56' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=78.8 id='car_57' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=79.0 id='car_58' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=80.4 id='car_59' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=81.4 id='car_60' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=81.4 id='car_61' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=82.5 id='car_62' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=83.7 id='car_63' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=84.6 id='car_64' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=87.8 id='car_65' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=87.8 id='car_66' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=88.6 id='car_67' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=89.3 id='car_68' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=91.4 id='car_69' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=92.0 id='car_70' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=93.4 id='car_71' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=95.2 id='car_72' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=96.8 id='car_73' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=97.8 id='car_74' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=97.8 id='car_75' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=101.8 id='car_76' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=102.4 id='car_77' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=103.7 id='car_78' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=104.0 id='car_79' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=104.9 id='car_80' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=108.1 id='car_81' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=108.5 id='car_82' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=110.3 id='car_83' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=110.8 id='car_84' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=112.2 id='car_85' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=114.4 id='car_86' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=115.4 id='car_87' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=115.5 id='car_88' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=116.7 id='car_89' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=117.0 id='car_90' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=117.1 id='car_91' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=118.3 id='car_92' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=119.0 id='car_93' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=121.6 id='car_94' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=122.6 id='car_95' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=125.7 id='car_96' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=128.6 id='car_97' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=129.1 id='car_98' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=129.7 id='car_99' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=130.4 id='car_100' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=132.2 id='car_101' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=134.9 id='car_102' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=138.1 id='car_103' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=138.5 id='car_104' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=139.0 id='car_105' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=142.2 id='car_106' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=143.6 id='car_107' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=143.7 id='car_108' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=144.0 id='car_109' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=144.5 id='car_110' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=149.9 id='car_111' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=154.2 id='car_112' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=155.3 id='car_113' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=155.3 id='car_114' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=156.5 id='car_115' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=161.5 id='car_116' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=162.6 id='car_117' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=163.0 id='car_118' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=163.2 id='car_119' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=164.2 id='car_120' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=164.4 id='car_121' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=164.8 id='car_122' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=165.9 id='car_123' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=167.0 id='car_124' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=167.6 id='car_125' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=168.9 id='car_126' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=171.1 id='car_127' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=171.8 id='car_128' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=172.4 id='car_129' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=173.9 id='car_130' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=174.5 id='car_131' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=176.0 id='car_132' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=178.3 id='car_133' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=178.6 id='car_134' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=185.1 id='car_135' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=185.4 id='car_136' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=185.9 id='car_137' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=186.2 id='car_138' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=186.3 id='car_139' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=187.9 id='car_140' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=188.4 id='car_141' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=188.5 id='car_142' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=189.2 id='car_143' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=189.6 id='car_144' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=189.8 id='car_145' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=190.7 id='car_146' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=191.7 id='car_147' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=191.7 id='car_148' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=192.8 id='car_149' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=194.6 id='car_150' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=195.0 id='car_151' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=195.9 id='car_152' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=196.7 id='car_153' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=196.8 id='car_154' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=197.8 id='car_155' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=198.1 id='car_156' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=198.3 id='car_157' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=199.8 id='car_158' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=201.7 id='car_159' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=201.8 id='car_160' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=203.1 id='car_161' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=203.7 id='car_162' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=205.5 id='car_163' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=206.3 id='car_164' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=206.5 id='car_165' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=207.4 id='car_166' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=207.4 id='car_167' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=207.4 id='car_168' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=207.4 id='car_169' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=207.4 id='car_170' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=208.3 id='car_171' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=210.1 id='car_172' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=213.7 id='car_173' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=213.9 id='car_174' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=214.6 id='car_175' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=214.7 id='car_176' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=214.9 id='car_177' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=215.8 id='car_178' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=218.8 id='car_179' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=218.8 id='car_180' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=219.4 id='car_181' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=219.9 id='car_182' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=220.6 id='car_183' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=224.7 id='car_184' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=225.6 id='car_185' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=225.6 id='car_186' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=227.8 id='car_187' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=228.4 id='car_188' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=228.8 id='car_189' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=234.4 id='car_190' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=236.1 id='car_191' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=237.5 id='car_192' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=241.5 id='car_193' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=242.6 id='car_194' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=242.9 id='car_195' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=245.1 id='car_196' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=245.2 id='car_197' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=245.9 id='car_198' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=247.4 id='car_199' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=248.0 id='car_200' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=248.2 id='car_201' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=254.3 id='car_202' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=254.6 id='car_203' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=255.1 id='car_204' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=255.1 id='car_205' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=256.0 id='car_206' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=258.2 id='car_207' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=258.5 id='car_208' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=260.9 id='car_209' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=262.3 id='car_210' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=262.7 id='car_211' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=262.8 id='car_212' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=263.0 id='car_213' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=267.0 id='car_214' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=269.7 id='car_215' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=272.6 id='car_216' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=273.0 id='car_217' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=273.3 id='car_218' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=273.4 id='car_219' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=273.9 id='car_220' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=276.0 id='car_221' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=278.3 id='car_222' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=279.1 id='car_223' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=279.2 id='car_224' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=280.2 id='car_225' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=280.9 id='car_226' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=283.5 id='car_227' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=283.5 id='car_228' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=291.5 id='car_229' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=291.9 id='car_230' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=292.4 id='car_231' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=293.9 id='car_232' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=294.0 id='car_233' type=CAR_ARRIVAL]
+QUEUE 'queue' ADDED Event[time=299.2 id='car_234' type=CAR_ARRIVAL]
+---------------------------------------------------------------------------------------------------
+QUEUE 'queue' SERVICED Event[time=1.8 id='car_1' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=4.8 id='car_2' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=5.8 id='car_3' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=11.4 id='car_4' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=14.0 id='car_5' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=19.9 id='car_6' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=20.2 id='car_7' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=20.3 id='car_8' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=22.1 id='car_9' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=26.1 id='car_10' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=26.2 id='car_11' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=27.7 id='car_12' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=30.0 id='transition_1' type=LIGHT_TO_RED]
+
+FINALIZE ANALYSIS GROUP 'on_green:1'
+NEW BLOCK AT 30.0
+
+id                  = on_green:1
+timeIntervalInitial = 0.0
+timeIntervalFinal   = 30.0
+timeIntervalSpan    = 30.0
+numCars             = 0
+carsPerSecond       = 0.0
+waitTimeTotal       = 0.0
+waitTimeMax         = 0.0
+waitTimeMin         = 0.0
+waitTimeAverage     = 0.0
+waitTimeDeviation   = 0.0
+QUEUE 'queue' SERVICED Event[time=30.3 id='car_13' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=30.3 id='car_14' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=31.0 id='car_15' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=31.6 id='car_16' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=38.4 id='car_17' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=39.5 id='car_18' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=40.3 id='car_19' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=40.4 id='car_20' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=41.6 id='car_21' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=44.1 id='car_22' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=44.5 id='car_23' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=44.7 id='car_24' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=49.1 id='car_25' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=49.5 id='car_26' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=50.7 id='car_27' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=52.0 id='car_28' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=52.4 id='car_29' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=54.8 id='car_30' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=56.4 id='car_31' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=58.5 id='car_32' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=58.7 id='car_33' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=58.8 id='car_34' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=58.9 id='car_35' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=62.5 id='car_36' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=62.9 id='car_37' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=64.0 id='car_38' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=64.3 id='car_39' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=64.5 id='car_40' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=64.6 id='car_41' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=64.8 id='car_42' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=64.8 id='car_43' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=65.7 id='car_44' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=66.5 id='car_45' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=66.9 id='car_46' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=69.0 id='car_47' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=70.9 id='car_48' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=71.5 id='car_49' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=73.2 id='car_50' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=75.0 id='transition_1' type=LIGHT_TO_GREEN]
+
+FINALIZE ANALYSIS GROUP 'on_red:2'
+NEW BLOCK AT 75.0
+CAR AT 73.2 WAIT TIME 1.8
+CAR AT 71.5 WAIT TIME 3.5
+CAR AT 70.9 WAIT TIME 4.1
+CAR AT 69.0 WAIT TIME 6.0
+CAR AT 66.9 WAIT TIME 8.1
+CAR AT 66.5 WAIT TIME 8.5
+CAR AT 65.7 WAIT TIME 9.3
+CAR AT 64.8 WAIT TIME 10.2
+CAR AT 64.8 WAIT TIME 10.2
+CAR AT 64.6 WAIT TIME 10.4
+CAR AT 64.5 WAIT TIME 10.5
+CAR AT 64.3 WAIT TIME 10.7
+CAR AT 64.0 WAIT TIME 11.0
+CAR AT 62.9 WAIT TIME 12.1
+CAR AT 62.5 WAIT TIME 12.5
+CAR AT 58.9 WAIT TIME 16.1
+CAR AT 58.8 WAIT TIME 16.2
+CAR AT 58.7 WAIT TIME 16.3
+CAR AT 58.5 WAIT TIME 16.5
+CAR AT 56.4 WAIT TIME 18.6
+CAR AT 54.8 WAIT TIME 20.2
+CAR AT 52.4 WAIT TIME 22.6
+CAR AT 52.0 WAIT TIME 23.0
+CAR AT 50.7 WAIT TIME 24.3
+CAR AT 49.5 WAIT TIME 25.5
+CAR AT 49.1 WAIT TIME 25.9
+CAR AT 44.7 WAIT TIME 30.3
+CAR AT 44.5 WAIT TIME 30.5
+CAR AT 44.1 WAIT TIME 30.9
+CAR AT 41.6 WAIT TIME 33.4
+CAR AT 40.4 WAIT TIME 34.6
+CAR AT 40.3 WAIT TIME 34.7
+CAR AT 39.5 WAIT TIME 35.5
+CAR AT 38.4 WAIT TIME 36.6
+CAR AT 31.6 WAIT TIME 43.4
+CAR AT 31.0 WAIT TIME 44.0
+CAR AT 30.3 WAIT TIME 44.7
+CAR AT 30.3 WAIT TIME 44.7
+CAR AT 27.7 WAIT TIME 47.3
+CAR AT 26.2 WAIT TIME 48.8
+CAR AT 26.1 WAIT TIME 48.9
+CAR AT 22.1 WAIT TIME 52.9
+CAR AT 20.3 WAIT TIME 54.7
+CAR AT 20.2 WAIT TIME 54.8
+CAR AT 19.9 WAIT TIME 55.1
+CAR AT 14.0 WAIT TIME 61.0
+CAR AT 11.4 WAIT TIME 63.6
+CAR AT 5.8 WAIT TIME 69.2
+CAR AT 4.8 WAIT TIME 70.2
+CAR AT 1.8 WAIT TIME 73.2
+
+id                  = on_red:2
+timeIntervalInitial = 0.0
+timeIntervalFinal   = 75.0
+timeIntervalSpan    = 75.0
+numCars             = 50
+carsPerSecond       = 0.7
+waitTimeTotal       = 1497.3
+waitTimeMax         = 73.2
+waitTimeMin         = 1.8
+waitTimeAverage     = 29.9
+waitTimeDeviation   = 2.9
+QUEUE 'queue' SERVICED Event[time=76.1 id='car_51' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=76.8 id='car_52' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=77.1 id='car_53' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=77.3 id='car_54' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=77.6 id='car_55' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=78.7 id='car_56' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=78.8 id='car_57' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=79.0 id='car_58' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=80.4 id='car_59' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=81.4 id='car_60' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=81.4 id='car_61' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=82.5 id='car_62' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=83.7 id='car_63' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=84.6 id='car_64' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=87.8 id='car_65' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=87.8 id='car_66' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=88.6 id='car_67' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=89.3 id='car_68' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=91.4 id='car_69' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=92.0 id='car_70' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=93.4 id='car_71' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=95.2 id='car_72' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=96.8 id='car_73' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=97.8 id='car_74' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=97.8 id='car_75' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=101.8 id='car_76' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=102.4 id='car_77' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=103.7 id='car_78' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=104.0 id='car_79' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=104.9 id='car_80' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=105.0 id='transition_2' type=LIGHT_TO_RED]
+
+FINALIZE ANALYSIS GROUP 'on_green:3'
+NEW BLOCK AT 105.0
+
+id                  = on_green:3
+timeIntervalInitial = 30.0
+timeIntervalFinal   = 105.0
+timeIntervalSpan    = 75.0
+numCars             = 0
+carsPerSecond       = 0.0
+waitTimeTotal       = 0.0
+waitTimeMax         = 0.0
+waitTimeMin         = 0.0
+waitTimeAverage     = 0.0
+waitTimeDeviation   = 0.0
+QUEUE 'queue' SERVICED Event[time=108.1 id='car_81' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=108.5 id='car_82' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=110.3 id='car_83' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=110.8 id='car_84' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=112.2 id='car_85' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=114.4 id='car_86' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=115.4 id='car_87' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=115.5 id='car_88' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=116.7 id='car_89' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=117.0 id='car_90' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=117.1 id='car_91' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=118.3 id='car_92' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=119.0 id='car_93' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=121.6 id='car_94' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=122.6 id='car_95' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=125.7 id='car_96' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=128.6 id='car_97' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=129.1 id='car_98' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=129.7 id='car_99' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=130.4 id='car_100' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=132.2 id='car_101' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=134.9 id='car_102' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=138.1 id='car_103' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=138.5 id='car_104' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=139.0 id='car_105' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=142.2 id='car_106' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=143.6 id='car_107' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=143.7 id='car_108' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=144.0 id='car_109' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=144.5 id='car_110' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=149.9 id='car_111' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=150.0 id='transition_2' type=LIGHT_TO_GREEN]
+
+FINALIZE ANALYSIS GROUP 'on_red:4'
+NEW BLOCK AT 150.0
+CAR AT 149.9 WAIT TIME 0.1
+CAR AT 144.5 WAIT TIME 5.5
+CAR AT 144.0 WAIT TIME 6.0
+CAR AT 143.7 WAIT TIME 6.3
+CAR AT 143.6 WAIT TIME 6.4
+CAR AT 142.2 WAIT TIME 7.8
+CAR AT 139.0 WAIT TIME 11.0
+CAR AT 138.5 WAIT TIME 11.5
+CAR AT 138.1 WAIT TIME 11.9
+CAR AT 134.9 WAIT TIME 15.1
+CAR AT 132.2 WAIT TIME 17.8
+CAR AT 130.4 WAIT TIME 19.6
+CAR AT 129.7 WAIT TIME 20.3
+CAR AT 129.1 WAIT TIME 20.9
+CAR AT 128.6 WAIT TIME 21.4
+CAR AT 125.7 WAIT TIME 24.3
+CAR AT 122.6 WAIT TIME 27.4
+CAR AT 121.6 WAIT TIME 28.4
+CAR AT 119.0 WAIT TIME 31.0
+CAR AT 118.3 WAIT TIME 31.7
+CAR AT 117.1 WAIT TIME 32.9
+CAR AT 117.0 WAIT TIME 33.0
+CAR AT 116.7 WAIT TIME 33.3
+CAR AT 115.5 WAIT TIME 34.5
+CAR AT 115.4 WAIT TIME 34.6
+CAR AT 114.4 WAIT TIME 35.6
+CAR AT 112.2 WAIT TIME 37.8
+CAR AT 110.8 WAIT TIME 39.2
+CAR AT 110.3 WAIT TIME 39.7
+CAR AT 108.5 WAIT TIME 41.5
+CAR AT 108.1 WAIT TIME 41.9
+CAR AT 104.9 WAIT TIME 45.1
+CAR AT 104.0 WAIT TIME 46.0
+CAR AT 103.7 WAIT TIME 46.3
+CAR AT 102.4 WAIT TIME 47.6
+CAR AT 101.8 WAIT TIME 48.2
+CAR AT 97.8 WAIT TIME 52.2
+CAR AT 97.8 WAIT TIME 52.2
+CAR AT 96.8 WAIT TIME 53.2
+CAR AT 95.2 WAIT TIME 54.8
+CAR AT 93.4 WAIT TIME 56.6
+CAR AT 92.0 WAIT TIME 58.0
+CAR AT 91.4 WAIT TIME 58.6
+CAR AT 89.3 WAIT TIME 60.7
+CAR AT 88.6 WAIT TIME 61.4
+CAR AT 87.8 WAIT TIME 62.2
+CAR AT 87.8 WAIT TIME 62.2
+CAR AT 84.6 WAIT TIME 65.4
+CAR AT 83.7 WAIT TIME 66.3
+CAR AT 82.5 WAIT TIME 67.5
+CAR AT 81.4 WAIT TIME 68.6
+CAR AT 81.4 WAIT TIME 68.6
+CAR AT 80.4 WAIT TIME 69.6
+CAR AT 79.0 WAIT TIME 71.0
+CAR AT 78.8 WAIT TIME 71.2
+CAR AT 78.7 WAIT TIME 71.3
+CAR AT 77.6 WAIT TIME 72.4
+CAR AT 77.3 WAIT TIME 72.7
+CAR AT 77.1 WAIT TIME 72.9
+CAR AT 76.8 WAIT TIME 73.2
+CAR AT 76.1 WAIT TIME 73.9
+
+id                  = on_red:4
+timeIntervalInitial = 75.0
+timeIntervalFinal   = 150.0
+timeIntervalSpan    = 75.0
+numCars             = 61
+carsPerSecond       = 0.8
+waitTimeTotal       = 2578.3
+waitTimeMax         = 73.9
+waitTimeMin         = 0.1
+waitTimeAverage     = 42.3
+waitTimeDeviation   = 2.9
+QUEUE 'queue' SERVICED Event[time=154.2 id='car_112' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=155.3 id='car_113' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=155.3 id='car_114' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=156.5 id='car_115' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=161.5 id='car_116' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=162.6 id='car_117' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=163.0 id='car_118' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=163.2 id='car_119' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=164.2 id='car_120' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=164.4 id='car_121' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=164.8 id='car_122' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=165.9 id='car_123' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=167.0 id='car_124' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=167.6 id='car_125' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=168.9 id='car_126' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=171.1 id='car_127' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=171.8 id='car_128' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=172.4 id='car_129' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=173.9 id='car_130' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=174.5 id='car_131' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=176.0 id='car_132' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=178.3 id='car_133' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=178.6 id='car_134' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=180.0 id='transition_3' type=LIGHT_TO_RED]
+
+FINALIZE ANALYSIS GROUP 'on_green:5'
+NEW BLOCK AT 180.0
+
+id                  = on_green:5
+timeIntervalInitial = 105.0
+timeIntervalFinal   = 180.0
+timeIntervalSpan    = 75.0
+numCars             = 0
+carsPerSecond       = 0.0
+waitTimeTotal       = 0.0
+waitTimeMax         = 0.0
+waitTimeMin         = 0.0
+waitTimeAverage     = 0.0
+waitTimeDeviation   = 0.0
+QUEUE 'queue' SERVICED Event[time=185.1 id='car_135' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=185.4 id='car_136' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=185.9 id='car_137' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=186.2 id='car_138' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=186.3 id='car_139' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=187.9 id='car_140' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=188.4 id='car_141' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=188.5 id='car_142' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=189.2 id='car_143' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=189.6 id='car_144' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=189.8 id='car_145' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=190.7 id='car_146' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=191.7 id='car_147' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=191.7 id='car_148' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=192.8 id='car_149' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=194.6 id='car_150' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=195.0 id='car_151' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=195.9 id='car_152' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=196.7 id='car_153' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=196.8 id='car_154' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=197.8 id='car_155' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=198.1 id='car_156' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=198.3 id='car_157' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=199.8 id='car_158' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=201.7 id='car_159' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=201.8 id='car_160' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=203.1 id='car_161' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=203.7 id='car_162' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=205.5 id='car_163' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=206.3 id='car_164' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=206.5 id='car_165' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=207.4 id='car_166' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=207.4 id='car_167' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=207.4 id='car_168' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=207.4 id='car_169' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=207.4 id='car_170' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=208.3 id='car_171' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=210.1 id='car_172' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=213.7 id='car_173' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=213.9 id='car_174' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=214.6 id='car_175' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=214.7 id='car_176' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=214.9 id='car_177' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=215.8 id='car_178' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=218.8 id='car_179' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=218.8 id='car_180' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=219.4 id='car_181' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=219.9 id='car_182' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=220.6 id='car_183' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=224.7 id='car_184' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=225.0 id='transition_3' type=LIGHT_TO_GREEN]
+
+FINALIZE ANALYSIS GROUP 'on_red:6'
+NEW BLOCK AT 225.0
+CAR AT 224.7 WAIT TIME 0.3
+CAR AT 220.6 WAIT TIME 4.4
+CAR AT 219.9 WAIT TIME 5.1
+CAR AT 219.4 WAIT TIME 5.6
+CAR AT 218.8 WAIT TIME 6.2
+CAR AT 218.8 WAIT TIME 6.2
+CAR AT 215.8 WAIT TIME 9.2
+CAR AT 214.9 WAIT TIME 10.1
+CAR AT 214.7 WAIT TIME 10.3
+CAR AT 214.6 WAIT TIME 10.4
+CAR AT 213.9 WAIT TIME 11.1
+CAR AT 213.7 WAIT TIME 11.3
+CAR AT 210.1 WAIT TIME 14.9
+CAR AT 208.3 WAIT TIME 16.7
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 206.5 WAIT TIME 18.5
+CAR AT 206.3 WAIT TIME 18.7
+CAR AT 205.5 WAIT TIME 19.5
+CAR AT 203.7 WAIT TIME 21.3
+CAR AT 203.1 WAIT TIME 21.9
+CAR AT 201.8 WAIT TIME 23.2
+CAR AT 201.7 WAIT TIME 23.3
+CAR AT 199.8 WAIT TIME 25.2
+CAR AT 198.3 WAIT TIME 26.7
+CAR AT 198.1 WAIT TIME 26.9
+CAR AT 197.8 WAIT TIME 27.2
+CAR AT 196.8 WAIT TIME 28.2
+CAR AT 196.7 WAIT TIME 28.3
+CAR AT 195.9 WAIT TIME 29.1
+CAR AT 195.0 WAIT TIME 30.0
+CAR AT 194.6 WAIT TIME 30.4
+CAR AT 192.8 WAIT TIME 32.2
+CAR AT 191.7 WAIT TIME 33.3
+CAR AT 191.7 WAIT TIME 33.3
+CAR AT 190.7 WAIT TIME 34.3
+CAR AT 189.8 WAIT TIME 35.2
+CAR AT 189.6 WAIT TIME 35.4
+CAR AT 189.2 WAIT TIME 35.8
+CAR AT 188.5 WAIT TIME 36.5
+CAR AT 188.4 WAIT TIME 36.6
+CAR AT 187.9 WAIT TIME 37.1
+CAR AT 186.3 WAIT TIME 38.7
+CAR AT 186.2 WAIT TIME 38.8
+CAR AT 185.9 WAIT TIME 39.1
+CAR AT 185.4 WAIT TIME 39.6
+CAR AT 185.1 WAIT TIME 39.9
+CAR AT 178.6 WAIT TIME 46.4
+CAR AT 178.3 WAIT TIME 46.7
+CAR AT 176.0 WAIT TIME 49.0
+CAR AT 174.5 WAIT TIME 50.5
+CAR AT 173.9 WAIT TIME 51.1
+CAR AT 172.4 WAIT TIME 52.6
+CAR AT 171.8 WAIT TIME 53.2
+CAR AT 171.1 WAIT TIME 53.9
+CAR AT 168.9 WAIT TIME 56.1
+CAR AT 167.6 WAIT TIME 57.4
+CAR AT 167.0 WAIT TIME 58.0
+CAR AT 165.9 WAIT TIME 59.1
+CAR AT 164.8 WAIT TIME 60.2
+CAR AT 164.4 WAIT TIME 60.6
+CAR AT 164.2 WAIT TIME 60.8
+CAR AT 163.2 WAIT TIME 61.8
+CAR AT 163.0 WAIT TIME 62.0
+CAR AT 162.6 WAIT TIME 62.4
+CAR AT 161.5 WAIT TIME 63.5
+CAR AT 156.5 WAIT TIME 68.5
+CAR AT 155.3 WAIT TIME 69.7
+CAR AT 155.3 WAIT TIME 69.7
+CAR AT 154.2 WAIT TIME 70.8
+
+id                  = on_red:6
+timeIntervalInitial = 150.0
+timeIntervalFinal   = 225.0
+timeIntervalSpan    = 75.0
+numCars             = 73
+carsPerSecond       = 1.0
+waitTimeTotal       = 2498.0
+waitTimeMax         = 70.8
+waitTimeMin         = 0.3
+waitTimeAverage     = 34.2
+waitTimeDeviation   = 2.3
+QUEUE 'queue' SERVICED Event[time=225.6 id='car_185' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=225.6 id='car_186' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=227.8 id='car_187' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=228.4 id='car_188' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=228.8 id='car_189' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=234.4 id='car_190' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=236.1 id='car_191' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=237.5 id='car_192' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=241.5 id='car_193' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=242.6 id='car_194' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=242.9 id='car_195' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=245.1 id='car_196' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=245.2 id='car_197' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=245.9 id='car_198' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=247.4 id='car_199' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=248.0 id='car_200' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=248.2 id='car_201' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=254.3 id='car_202' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=254.6 id='car_203' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=255.0 id='transition_4' type=LIGHT_TO_RED]
+
+FINALIZE ANALYSIS GROUP 'on_green:7'
+NEW BLOCK AT 255.0
+
+id                  = on_green:7
+timeIntervalInitial = 180.0
+timeIntervalFinal   = 255.0
+timeIntervalSpan    = 75.0
+numCars             = 0
+carsPerSecond       = 0.0
+waitTimeTotal       = 0.0
+waitTimeMax         = 0.0
+waitTimeMin         = 0.0
+waitTimeAverage     = 0.0
+waitTimeDeviation   = 0.0
+QUEUE 'queue' SERVICED Event[time=255.1 id='car_204' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=255.1 id='car_205' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=256.0 id='car_206' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=258.2 id='car_207' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=258.5 id='car_208' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=260.9 id='car_209' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=262.3 id='car_210' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=262.7 id='car_211' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=262.8 id='car_212' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=263.0 id='car_213' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=267.0 id='car_214' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=269.7 id='car_215' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=272.6 id='car_216' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=273.0 id='car_217' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=273.3 id='car_218' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=273.4 id='car_219' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=273.9 id='car_220' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=276.0 id='car_221' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=278.3 id='car_222' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=279.1 id='car_223' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=279.2 id='car_224' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=280.2 id='car_225' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=280.9 id='car_226' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=283.5 id='car_227' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=283.5 id='car_228' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=291.5 id='car_229' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=291.9 id='car_230' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=292.4 id='car_231' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=293.9 id='car_232' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=294.0 id='car_233' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=299.2 id='car_234' type=CAR_ARRIVAL]
+QUEUE 'queue' SERVICED Event[time=300.0 id='transition_4' type=LIGHT_TO_GREEN]
+
+FINALIZE ANALYSIS GROUP 'on_red:8'
+NEW BLOCK AT 300.0
+CAR AT 299.2 WAIT TIME 0.8
+CAR AT 294.0 WAIT TIME 6.0
+CAR AT 293.9 WAIT TIME 6.1
+CAR AT 292.4 WAIT TIME 7.6
+CAR AT 291.9 WAIT TIME 8.1
+CAR AT 291.5 WAIT TIME 8.5
+CAR AT 283.5 WAIT TIME 16.5
+CAR AT 283.5 WAIT TIME 16.5
+CAR AT 280.9 WAIT TIME 19.1
+CAR AT 280.2 WAIT TIME 19.8
+CAR AT 279.2 WAIT TIME 20.8
+CAR AT 279.1 WAIT TIME 20.9
+CAR AT 278.3 WAIT TIME 21.7
+CAR AT 276.0 WAIT TIME 24.0
+CAR AT 273.9 WAIT TIME 26.1
+CAR AT 273.4 WAIT TIME 26.6
+CAR AT 273.3 WAIT TIME 26.7
+CAR AT 273.0 WAIT TIME 27.0
+CAR AT 272.6 WAIT TIME 27.4
+CAR AT 269.7 WAIT TIME 30.3
+CAR AT 267.0 WAIT TIME 33.0
+CAR AT 263.0 WAIT TIME 37.0
+CAR AT 262.8 WAIT TIME 37.2
+CAR AT 262.7 WAIT TIME 37.3
+CAR AT 262.3 WAIT TIME 37.7
+CAR AT 260.9 WAIT TIME 39.1
+CAR AT 258.5 WAIT TIME 41.5
+CAR AT 258.2 WAIT TIME 41.8
+CAR AT 256.0 WAIT TIME 44.0
+CAR AT 255.1 WAIT TIME 44.9
+CAR AT 255.1 WAIT TIME 44.9
+CAR AT 254.6 WAIT TIME 45.4
+CAR AT 254.3 WAIT TIME 45.7
+CAR AT 248.2 WAIT TIME 51.8
+CAR AT 248.0 WAIT TIME 52.0
+CAR AT 247.4 WAIT TIME 52.6
+CAR AT 245.9 WAIT TIME 54.1
+CAR AT 245.2 WAIT TIME 54.8
+CAR AT 245.1 WAIT TIME 54.9
+CAR AT 242.9 WAIT TIME 57.1
+CAR AT 242.6 WAIT TIME 57.4
+CAR AT 241.5 WAIT TIME 58.5
+CAR AT 237.5 WAIT TIME 62.5
+CAR AT 236.1 WAIT TIME 63.9
+CAR AT 234.4 WAIT TIME 65.6
+CAR AT 228.8 WAIT TIME 71.2
+CAR AT 228.4 WAIT TIME 71.6
+CAR AT 227.8 WAIT TIME 72.2
+CAR AT 225.6 WAIT TIME 74.4
+CAR AT 225.6 WAIT TIME 74.4
+
+id                  = on_red:8
+timeIntervalInitial = 225.0
+timeIntervalFinal   = 300.0
+timeIntervalSpan    = 75.0
+numCars             = 50
+carsPerSecond       = 0.7
+waitTimeTotal       = 1938.9
+waitTimeMax         = 74.4
+waitTimeMin         = 0.8
+waitTimeAverage     = 38.8
+waitTimeDeviation   = 2.9
+
+FINALIZE ANALYSIS GROUP 'all'
+NEW BLOCK AT 300.0
+NEW BLOCK AT 300.0
+CAR AT 299.2 WAIT TIME 0.8
+CAR AT 294.0 WAIT TIME 6.0
+CAR AT 293.9 WAIT TIME 6.1
+CAR AT 292.4 WAIT TIME 7.6
+CAR AT 291.9 WAIT TIME 8.1
+CAR AT 291.5 WAIT TIME 8.5
+CAR AT 283.5 WAIT TIME 16.5
+CAR AT 283.5 WAIT TIME 16.5
+CAR AT 280.9 WAIT TIME 19.1
+CAR AT 280.2 WAIT TIME 19.8
+CAR AT 279.2 WAIT TIME 20.8
+CAR AT 279.1 WAIT TIME 20.9
+CAR AT 278.3 WAIT TIME 21.7
+CAR AT 276.0 WAIT TIME 24.0
+CAR AT 273.9 WAIT TIME 26.1
+CAR AT 273.4 WAIT TIME 26.6
+CAR AT 273.3 WAIT TIME 26.7
+CAR AT 273.0 WAIT TIME 27.0
+CAR AT 272.6 WAIT TIME 27.4
+CAR AT 269.7 WAIT TIME 30.3
+CAR AT 267.0 WAIT TIME 33.0
+CAR AT 263.0 WAIT TIME 37.0
+CAR AT 262.8 WAIT TIME 37.2
+CAR AT 262.7 WAIT TIME 37.3
+CAR AT 262.3 WAIT TIME 37.7
+CAR AT 260.9 WAIT TIME 39.1
+CAR AT 258.5 WAIT TIME 41.5
+CAR AT 258.2 WAIT TIME 41.8
+CAR AT 256.0 WAIT TIME 44.0
+CAR AT 255.1 WAIT TIME 44.9
+CAR AT 255.1 WAIT TIME 44.9
+NEW BLOCK AT 255.0
+CAR AT 254.6 WAIT TIME 0.4
+CAR AT 254.3 WAIT TIME 0.7
+CAR AT 248.2 WAIT TIME 6.8
+CAR AT 248.0 WAIT TIME 7.0
+CAR AT 247.4 WAIT TIME 7.6
+CAR AT 245.9 WAIT TIME 9.1
+CAR AT 245.2 WAIT TIME 9.8
+CAR AT 245.1 WAIT TIME 9.9
+CAR AT 242.9 WAIT TIME 12.1
+CAR AT 242.6 WAIT TIME 12.4
+CAR AT 241.5 WAIT TIME 13.5
+CAR AT 237.5 WAIT TIME 17.5
+CAR AT 236.1 WAIT TIME 18.9
+CAR AT 234.4 WAIT TIME 20.6
+CAR AT 228.8 WAIT TIME 26.2
+CAR AT 228.4 WAIT TIME 26.6
+CAR AT 227.8 WAIT TIME 27.2
+CAR AT 225.6 WAIT TIME 29.4
+CAR AT 225.6 WAIT TIME 29.4
+NEW BLOCK AT 225.0
+CAR AT 224.7 WAIT TIME 0.3
+CAR AT 220.6 WAIT TIME 4.4
+CAR AT 219.9 WAIT TIME 5.1
+CAR AT 219.4 WAIT TIME 5.6
+CAR AT 218.8 WAIT TIME 6.2
+CAR AT 218.8 WAIT TIME 6.2
+CAR AT 215.8 WAIT TIME 9.2
+CAR AT 214.9 WAIT TIME 10.1
+CAR AT 214.7 WAIT TIME 10.3
+CAR AT 214.6 WAIT TIME 10.4
+CAR AT 213.9 WAIT TIME 11.1
+CAR AT 213.7 WAIT TIME 11.3
+CAR AT 210.1 WAIT TIME 14.9
+CAR AT 208.3 WAIT TIME 16.7
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 206.5 WAIT TIME 18.5
+CAR AT 206.3 WAIT TIME 18.7
+CAR AT 205.5 WAIT TIME 19.5
+CAR AT 203.7 WAIT TIME 21.3
+CAR AT 203.1 WAIT TIME 21.9
+CAR AT 201.8 WAIT TIME 23.2
+CAR AT 201.7 WAIT TIME 23.3
+CAR AT 199.8 WAIT TIME 25.2
+CAR AT 198.3 WAIT TIME 26.7
+CAR AT 198.1 WAIT TIME 26.9
+CAR AT 197.8 WAIT TIME 27.2
+CAR AT 196.8 WAIT TIME 28.2
+CAR AT 196.7 WAIT TIME 28.3
+CAR AT 195.9 WAIT TIME 29.1
+CAR AT 195.0 WAIT TIME 30.0
+CAR AT 194.6 WAIT TIME 30.4
+CAR AT 192.8 WAIT TIME 32.2
+CAR AT 191.7 WAIT TIME 33.3
+CAR AT 191.7 WAIT TIME 33.3
+CAR AT 190.7 WAIT TIME 34.3
+CAR AT 189.8 WAIT TIME 35.2
+CAR AT 189.6 WAIT TIME 35.4
+CAR AT 189.2 WAIT TIME 35.8
+CAR AT 188.5 WAIT TIME 36.5
+CAR AT 188.4 WAIT TIME 36.6
+CAR AT 187.9 WAIT TIME 37.1
+CAR AT 186.3 WAIT TIME 38.7
+CAR AT 186.2 WAIT TIME 38.8
+CAR AT 185.9 WAIT TIME 39.1
+CAR AT 185.4 WAIT TIME 39.6
+CAR AT 185.1 WAIT TIME 39.9
+NEW BLOCK AT 180.0
+CAR AT 178.6 WAIT TIME 1.4
+CAR AT 178.3 WAIT TIME 1.7
+CAR AT 176.0 WAIT TIME 4.0
+CAR AT 174.5 WAIT TIME 5.5
+CAR AT 173.9 WAIT TIME 6.1
+CAR AT 172.4 WAIT TIME 7.6
+CAR AT 171.8 WAIT TIME 8.2
+CAR AT 171.1 WAIT TIME 8.9
+CAR AT 168.9 WAIT TIME 11.1
+CAR AT 167.6 WAIT TIME 12.4
+CAR AT 167.0 WAIT TIME 13.0
+CAR AT 165.9 WAIT TIME 14.1
+CAR AT 164.8 WAIT TIME 15.2
+CAR AT 164.4 WAIT TIME 15.6
+CAR AT 164.2 WAIT TIME 15.8
+CAR AT 163.2 WAIT TIME 16.8
+CAR AT 163.0 WAIT TIME 17.0
+CAR AT 162.6 WAIT TIME 17.4
+CAR AT 161.5 WAIT TIME 18.5
+CAR AT 156.5 WAIT TIME 23.5
+CAR AT 155.3 WAIT TIME 24.7
+CAR AT 155.3 WAIT TIME 24.7
+CAR AT 154.2 WAIT TIME 25.8
+NEW BLOCK AT 150.0
+CAR AT 149.9 WAIT TIME 0.1
+CAR AT 144.5 WAIT TIME 5.5
+CAR AT 144.0 WAIT TIME 6.0
+CAR AT 143.7 WAIT TIME 6.3
+CAR AT 143.6 WAIT TIME 6.4
+CAR AT 142.2 WAIT TIME 7.8
+CAR AT 139.0 WAIT TIME 11.0
+CAR AT 138.5 WAIT TIME 11.5
+CAR AT 138.1 WAIT TIME 11.9
+CAR AT 134.9 WAIT TIME 15.1
+CAR AT 132.2 WAIT TIME 17.8
+CAR AT 130.4 WAIT TIME 19.6
+CAR AT 129.7 WAIT TIME 20.3
+CAR AT 129.1 WAIT TIME 20.9
+CAR AT 128.6 WAIT TIME 21.4
+CAR AT 125.7 WAIT TIME 24.3
+CAR AT 122.6 WAIT TIME 27.4
+CAR AT 121.6 WAIT TIME 28.4
+CAR AT 119.0 WAIT TIME 31.0
+CAR AT 118.3 WAIT TIME 31.7
+CAR AT 117.1 WAIT TIME 32.9
+CAR AT 117.0 WAIT TIME 33.0
+CAR AT 116.7 WAIT TIME 33.3
+CAR AT 115.5 WAIT TIME 34.5
+CAR AT 115.4 WAIT TIME 34.6
+CAR AT 114.4 WAIT TIME 35.6
+CAR AT 112.2 WAIT TIME 37.8
+CAR AT 110.8 WAIT TIME 39.2
+CAR AT 110.3 WAIT TIME 39.7
+CAR AT 108.5 WAIT TIME 41.5
+CAR AT 108.1 WAIT TIME 41.9
+NEW BLOCK AT 105.0
+CAR AT 104.9 WAIT TIME 0.1
+CAR AT 104.0 WAIT TIME 1.0
+CAR AT 103.7 WAIT TIME 1.3
+CAR AT 102.4 WAIT TIME 2.6
+CAR AT 101.8 WAIT TIME 3.2
+CAR AT 97.8 WAIT TIME 7.2
+CAR AT 97.8 WAIT TIME 7.2
+CAR AT 96.8 WAIT TIME 8.2
+CAR AT 95.2 WAIT TIME 9.8
+CAR AT 93.4 WAIT TIME 11.6
+CAR AT 92.0 WAIT TIME 13.0
+CAR AT 91.4 WAIT TIME 13.6
+CAR AT 89.3 WAIT TIME 15.7
+CAR AT 88.6 WAIT TIME 16.4
+CAR AT 87.8 WAIT TIME 17.2
+CAR AT 87.8 WAIT TIME 17.2
+CAR AT 84.6 WAIT TIME 20.4
+CAR AT 83.7 WAIT TIME 21.3
+CAR AT 82.5 WAIT TIME 22.5
+CAR AT 81.4 WAIT TIME 23.6
+CAR AT 81.4 WAIT TIME 23.6
+CAR AT 80.4 WAIT TIME 24.6
+CAR AT 79.0 WAIT TIME 26.0
+CAR AT 78.8 WAIT TIME 26.2
+CAR AT 78.7 WAIT TIME 26.3
+CAR AT 77.6 WAIT TIME 27.4
+CAR AT 77.3 WAIT TIME 27.7
+CAR AT 77.1 WAIT TIME 27.9
+CAR AT 76.8 WAIT TIME 28.2
+CAR AT 76.1 WAIT TIME 28.9
+NEW BLOCK AT 75.0
+CAR AT 73.2 WAIT TIME 1.8
+CAR AT 71.5 WAIT TIME 3.5
+CAR AT 70.9 WAIT TIME 4.1
+CAR AT 69.0 WAIT TIME 6.0
+CAR AT 66.9 WAIT TIME 8.1
+CAR AT 66.5 WAIT TIME 8.5
+CAR AT 65.7 WAIT TIME 9.3
+CAR AT 64.8 WAIT TIME 10.2
+CAR AT 64.8 WAIT TIME 10.2
+CAR AT 64.6 WAIT TIME 10.4
+CAR AT 64.5 WAIT TIME 10.5
+CAR AT 64.3 WAIT TIME 10.7
+CAR AT 64.0 WAIT TIME 11.0
+CAR AT 62.9 WAIT TIME 12.1
+CAR AT 62.5 WAIT TIME 12.5
+CAR AT 58.9 WAIT TIME 16.1
+CAR AT 58.8 WAIT TIME 16.2
+CAR AT 58.7 WAIT TIME 16.3
+CAR AT 58.5 WAIT TIME 16.5
+CAR AT 56.4 WAIT TIME 18.6
+CAR AT 54.8 WAIT TIME 20.2
+CAR AT 52.4 WAIT TIME 22.6
+CAR AT 52.0 WAIT TIME 23.0
+CAR AT 50.7 WAIT TIME 24.3
+CAR AT 49.5 WAIT TIME 25.5
+CAR AT 49.1 WAIT TIME 25.9
+CAR AT 44.7 WAIT TIME 30.3
+CAR AT 44.5 WAIT TIME 30.5
+CAR AT 44.1 WAIT TIME 30.9
+CAR AT 41.6 WAIT TIME 33.4
+CAR AT 40.4 WAIT TIME 34.6
+CAR AT 40.3 WAIT TIME 34.7
+CAR AT 39.5 WAIT TIME 35.5
+CAR AT 38.4 WAIT TIME 36.6
+CAR AT 31.6 WAIT TIME 43.4
+CAR AT 31.0 WAIT TIME 44.0
+CAR AT 30.3 WAIT TIME 44.7
+CAR AT 30.3 WAIT TIME 44.7
+NEW BLOCK AT 30.0
+CAR AT 27.7 WAIT TIME 2.3
+CAR AT 26.2 WAIT TIME 3.8
+CAR AT 26.1 WAIT TIME 3.9
+CAR AT 22.1 WAIT TIME 7.9
+CAR AT 20.3 WAIT TIME 9.7
+CAR AT 20.2 WAIT TIME 9.8
+CAR AT 19.9 WAIT TIME 10.1
+CAR AT 14.0 WAIT TIME 16.0
+CAR AT 11.4 WAIT TIME 18.6
+CAR AT 5.8 WAIT TIME 24.2
+CAR AT 4.8 WAIT TIME 25.2
+CAR AT 1.8 WAIT TIME 28.2
+
+id                  = all
+timeIntervalInitial = 0.0
+timeIntervalFinal   = 300.0
+timeIntervalSpan    = 300.0
+numCars             = 234
+carsPerSecond       = 0.8
+waitTimeTotal       = 4732.6
+waitTimeMax         = 44.9
+waitTimeMin         = 0.1
+waitTimeAverage     = 20.2
+waitTimeDeviation   = 0.8
+
+FINALIZE ANALYSIS GROUP 'on_green:all'
+NEW BLOCK AT 300.0
+NEW BLOCK AT 255.0
+NEW BLOCK AT 180.0
+NEW BLOCK AT 105.0
+NEW BLOCK AT 30.0
+
+id                  = on_green:all
+timeIntervalInitial = 0.0
+timeIntervalFinal   = 300.0
+timeIntervalSpan    = 300.0
+numCars             = 0
+carsPerSecond       = 0.0
+waitTimeTotal       = 0.0
+waitTimeMax         = 0.0
+waitTimeMin         = 0.0
+waitTimeAverage     = 0.0
+waitTimeDeviation   = 0.0
+
+FINALIZE ANALYSIS GROUP 'on_red:all'
+NEW BLOCK AT 300.0
+NEW BLOCK AT 300.0
+CAR AT 299.2 WAIT TIME 0.8
+CAR AT 294.0 WAIT TIME 6.0
+CAR AT 293.9 WAIT TIME 6.1
+CAR AT 292.4 WAIT TIME 7.6
+CAR AT 291.9 WAIT TIME 8.1
+CAR AT 291.5 WAIT TIME 8.5
+CAR AT 283.5 WAIT TIME 16.5
+CAR AT 283.5 WAIT TIME 16.5
+CAR AT 280.9 WAIT TIME 19.1
+CAR AT 280.2 WAIT TIME 19.8
+CAR AT 279.2 WAIT TIME 20.8
+CAR AT 279.1 WAIT TIME 20.9
+CAR AT 278.3 WAIT TIME 21.7
+CAR AT 276.0 WAIT TIME 24.0
+CAR AT 273.9 WAIT TIME 26.1
+CAR AT 273.4 WAIT TIME 26.6
+CAR AT 273.3 WAIT TIME 26.7
+CAR AT 273.0 WAIT TIME 27.0
+CAR AT 272.6 WAIT TIME 27.4
+CAR AT 269.7 WAIT TIME 30.3
+CAR AT 267.0 WAIT TIME 33.0
+CAR AT 263.0 WAIT TIME 37.0
+CAR AT 262.8 WAIT TIME 37.2
+CAR AT 262.7 WAIT TIME 37.3
+CAR AT 262.3 WAIT TIME 37.7
+CAR AT 260.9 WAIT TIME 39.1
+CAR AT 258.5 WAIT TIME 41.5
+CAR AT 258.2 WAIT TIME 41.8
+CAR AT 256.0 WAIT TIME 44.0
+CAR AT 255.1 WAIT TIME 44.9
+CAR AT 255.1 WAIT TIME 44.9
+CAR AT 254.6 WAIT TIME 45.4
+CAR AT 254.3 WAIT TIME 45.7
+CAR AT 248.2 WAIT TIME 51.8
+CAR AT 248.0 WAIT TIME 52.0
+CAR AT 247.4 WAIT TIME 52.6
+CAR AT 245.9 WAIT TIME 54.1
+CAR AT 245.2 WAIT TIME 54.8
+CAR AT 245.1 WAIT TIME 54.9
+CAR AT 242.9 WAIT TIME 57.1
+CAR AT 242.6 WAIT TIME 57.4
+CAR AT 241.5 WAIT TIME 58.5
+CAR AT 237.5 WAIT TIME 62.5
+CAR AT 236.1 WAIT TIME 63.9
+CAR AT 234.4 WAIT TIME 65.6
+CAR AT 228.8 WAIT TIME 71.2
+CAR AT 228.4 WAIT TIME 71.6
+CAR AT 227.8 WAIT TIME 72.2
+CAR AT 225.6 WAIT TIME 74.4
+CAR AT 225.6 WAIT TIME 74.4
+NEW BLOCK AT 225.0
+CAR AT 224.7 WAIT TIME 0.3
+CAR AT 220.6 WAIT TIME 4.4
+CAR AT 219.9 WAIT TIME 5.1
+CAR AT 219.4 WAIT TIME 5.6
+CAR AT 218.8 WAIT TIME 6.2
+CAR AT 218.8 WAIT TIME 6.2
+CAR AT 215.8 WAIT TIME 9.2
+CAR AT 214.9 WAIT TIME 10.1
+CAR AT 214.7 WAIT TIME 10.3
+CAR AT 214.6 WAIT TIME 10.4
+CAR AT 213.9 WAIT TIME 11.1
+CAR AT 213.7 WAIT TIME 11.3
+CAR AT 210.1 WAIT TIME 14.9
+CAR AT 208.3 WAIT TIME 16.7
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 207.4 WAIT TIME 17.6
+CAR AT 206.5 WAIT TIME 18.5
+CAR AT 206.3 WAIT TIME 18.7
+CAR AT 205.5 WAIT TIME 19.5
+CAR AT 203.7 WAIT TIME 21.3
+CAR AT 203.1 WAIT TIME 21.9
+CAR AT 201.8 WAIT TIME 23.2
+CAR AT 201.7 WAIT TIME 23.3
+CAR AT 199.8 WAIT TIME 25.2
+CAR AT 198.3 WAIT TIME 26.7
+CAR AT 198.1 WAIT TIME 26.9
+CAR AT 197.8 WAIT TIME 27.2
+CAR AT 196.8 WAIT TIME 28.2
+CAR AT 196.7 WAIT TIME 28.3
+CAR AT 195.9 WAIT TIME 29.1
+CAR AT 195.0 WAIT TIME 30.0
+CAR AT 194.6 WAIT TIME 30.4
+CAR AT 192.8 WAIT TIME 32.2
+CAR AT 191.7 WAIT TIME 33.3
+CAR AT 191.7 WAIT TIME 33.3
+CAR AT 190.7 WAIT TIME 34.3
+CAR AT 189.8 WAIT TIME 35.2
+CAR AT 189.6 WAIT TIME 35.4
+CAR AT 189.2 WAIT TIME 35.8
+CAR AT 188.5 WAIT TIME 36.5
+CAR AT 188.4 WAIT TIME 36.6
+CAR AT 187.9 WAIT TIME 37.1
+CAR AT 186.3 WAIT TIME 38.7
+CAR AT 186.2 WAIT TIME 38.8
+CAR AT 185.9 WAIT TIME 39.1
+CAR AT 185.4 WAIT TIME 39.6
+CAR AT 185.1 WAIT TIME 39.9
+CAR AT 178.6 WAIT TIME 46.4
+CAR AT 178.3 WAIT TIME 46.7
+CAR AT 176.0 WAIT TIME 49.0
+CAR AT 174.5 WAIT TIME 50.5
+CAR AT 173.9 WAIT TIME 51.1
+CAR AT 172.4 WAIT TIME 52.6
+CAR AT 171.8 WAIT TIME 53.2
+CAR AT 171.1 WAIT TIME 53.9
+CAR AT 168.9 WAIT TIME 56.1
+CAR AT 167.6 WAIT TIME 57.4
+CAR AT 167.0 WAIT TIME 58.0
+CAR AT 165.9 WAIT TIME 59.1
+CAR AT 164.8 WAIT TIME 60.2
+CAR AT 164.4 WAIT TIME 60.6
+CAR AT 164.2 WAIT TIME 60.8
+CAR AT 163.2 WAIT TIME 61.8
+CAR AT 163.0 WAIT TIME 62.0
+CAR AT 162.6 WAIT TIME 62.4
+CAR AT 161.5 WAIT TIME 63.5
+CAR AT 156.5 WAIT TIME 68.5
+CAR AT 155.3 WAIT TIME 69.7
+CAR AT 155.3 WAIT TIME 69.7
+CAR AT 154.2 WAIT TIME 70.8
+NEW BLOCK AT 150.0
+CAR AT 149.9 WAIT TIME 0.1
+CAR AT 144.5 WAIT TIME 5.5
+CAR AT 144.0 WAIT TIME 6.0
+CAR AT 143.7 WAIT TIME 6.3
+CAR AT 143.6 WAIT TIME 6.4
+CAR AT 142.2 WAIT TIME 7.8
+CAR AT 139.0 WAIT TIME 11.0
+CAR AT 138.5 WAIT TIME 11.5
+CAR AT 138.1 WAIT TIME 11.9
+CAR AT 134.9 WAIT TIME 15.1
+CAR AT 132.2 WAIT TIME 17.8
+CAR AT 130.4 WAIT TIME 19.6
+CAR AT 129.7 WAIT TIME 20.3
+CAR AT 129.1 WAIT TIME 20.9
+CAR AT 128.6 WAIT TIME 21.4
+CAR AT 125.7 WAIT TIME 24.3
+CAR AT 122.6 WAIT TIME 27.4
+CAR AT 121.6 WAIT TIME 28.4
+CAR AT 119.0 WAIT TIME 31.0
+CAR AT 118.3 WAIT TIME 31.7
+CAR AT 117.1 WAIT TIME 32.9
+CAR AT 117.0 WAIT TIME 33.0
+CAR AT 116.7 WAIT TIME 33.3
+CAR AT 115.5 WAIT TIME 34.5
+CAR AT 115.4 WAIT TIME 34.6
+CAR AT 114.4 WAIT TIME 35.6
+CAR AT 112.2 WAIT TIME 37.8
+CAR AT 110.8 WAIT TIME 39.2
+CAR AT 110.3 WAIT TIME 39.7
+CAR AT 108.5 WAIT TIME 41.5
+CAR AT 108.1 WAIT TIME 41.9
+CAR AT 104.9 WAIT TIME 45.1
+CAR AT 104.0 WAIT TIME 46.0
+CAR AT 103.7 WAIT TIME 46.3
+CAR AT 102.4 WAIT TIME 47.6
+CAR AT 101.8 WAIT TIME 48.2
+CAR AT 97.8 WAIT TIME 52.2
+CAR AT 97.8 WAIT TIME 52.2
+CAR AT 96.8 WAIT TIME 53.2
+CAR AT 95.2 WAIT TIME 54.8
+CAR AT 93.4 WAIT TIME 56.6
+CAR AT 92.0 WAIT TIME 58.0
+CAR AT 91.4 WAIT TIME 58.6
+CAR AT 89.3 WAIT TIME 60.7
+CAR AT 88.6 WAIT TIME 61.4
+CAR AT 87.8 WAIT TIME 62.2
+CAR AT 87.8 WAIT TIME 62.2
+CAR AT 84.6 WAIT TIME 65.4
+CAR AT 83.7 WAIT TIME 66.3
+CAR AT 82.5 WAIT TIME 67.5
+CAR AT 81.4 WAIT TIME 68.6
+CAR AT 81.4 WAIT TIME 68.6
+CAR AT 80.4 WAIT TIME 69.6
+CAR AT 79.0 WAIT TIME 71.0
+CAR AT 78.8 WAIT TIME 71.2
+CAR AT 78.7 WAIT TIME 71.3
+CAR AT 77.6 WAIT TIME 72.4
+CAR AT 77.3 WAIT TIME 72.7
+CAR AT 77.1 WAIT TIME 72.9
+CAR AT 76.8 WAIT TIME 73.2
+CAR AT 76.1 WAIT TIME 73.9
+NEW BLOCK AT 75.0
+CAR AT 73.2 WAIT TIME 1.8
+CAR AT 71.5 WAIT TIME 3.5
+CAR AT 70.9 WAIT TIME 4.1
+CAR AT 69.0 WAIT TIME 6.0
+CAR AT 66.9 WAIT TIME 8.1
+CAR AT 66.5 WAIT TIME 8.5
+CAR AT 65.7 WAIT TIME 9.3
+CAR AT 64.8 WAIT TIME 10.2
+CAR AT 64.8 WAIT TIME 10.2
+CAR AT 64.6 WAIT TIME 10.4
+CAR AT 64.5 WAIT TIME 10.5
+CAR AT 64.3 WAIT TIME 10.7
+CAR AT 64.0 WAIT TIME 11.0
+CAR AT 62.9 WAIT TIME 12.1
+CAR AT 62.5 WAIT TIME 12.5
+CAR AT 58.9 WAIT TIME 16.1
+CAR AT 58.8 WAIT TIME 16.2
+CAR AT 58.7 WAIT TIME 16.3
+CAR AT 58.5 WAIT TIME 16.5
+CAR AT 56.4 WAIT TIME 18.6
+CAR AT 54.8 WAIT TIME 20.2
+CAR AT 52.4 WAIT TIME 22.6
+CAR AT 52.0 WAIT TIME 23.0
+CAR AT 50.7 WAIT TIME 24.3
+CAR AT 49.5 WAIT TIME 25.5
+CAR AT 49.1 WAIT TIME 25.9
+CAR AT 44.7 WAIT TIME 30.3
+CAR AT 44.5 WAIT TIME 30.5
+CAR AT 44.1 WAIT TIME 30.9
+CAR AT 41.6 WAIT TIME 33.4
+CAR AT 40.4 WAIT TIME 34.6
+CAR AT 40.3 WAIT TIME 34.7
+CAR AT 39.5 WAIT TIME 35.5
+CAR AT 38.4 WAIT TIME 36.6
+CAR AT 31.6 WAIT TIME 43.4
+CAR AT 31.0 WAIT TIME 44.0
+CAR AT 30.3 WAIT TIME 44.7
+CAR AT 30.3 WAIT TIME 44.7
+CAR AT 27.7 WAIT TIME 47.3
+CAR AT 26.2 WAIT TIME 48.8
+CAR AT 26.1 WAIT TIME 48.9
+CAR AT 22.1 WAIT TIME 52.9
+CAR AT 20.3 WAIT TIME 54.7
+CAR AT 20.2 WAIT TIME 54.8
+CAR AT 19.9 WAIT TIME 55.1
+CAR AT 14.0 WAIT TIME 61.0
+CAR AT 11.4 WAIT TIME 63.6
+CAR AT 5.8 WAIT TIME 69.2
+CAR AT 4.8 WAIT TIME 70.2
+CAR AT 1.8 WAIT TIME 73.2
+
+id                  = on_red:all
+timeIntervalInitial = 0.0
+timeIntervalFinal   = 300.0
+timeIntervalSpan    = 300.0
+numCars             = 234
+carsPerSecond       = 0.8
+waitTimeTotal       = 8512.6
+waitTimeMax         = 74.4
+waitTimeMin         = 0.1
+waitTimeAverage     = 36.4
+waitTimeDeviation   = 1.4
+
+HISTOGRAM OF ANALYSIS GROUP 'all'
+Time,Count
+0.0,3
+10.0,3
+20.0,7
+30.0,6
+40.0,8
+50.0,9
+60.0,12
+70.0,12
+80.0,10
+90.0,7
+100.0,8
+110.0,11
+120.0,6
+130.0,6
+140.0,7
+150.0,4
+160.0,11
+170.0,9
+180.0,11
+190.0,13
+200.0,13
+210.0,11
+220.0,8
+230.0,3
+240.0,9
+250.0,8
+260.0,7
+270.0,9
+280.0,4
+290.0,8
+
+HISTOGRAM OF ANALYSIS GROUP 'on_green:all'
+Time,Count
+0.0,5
+10.0,0
+20.0,0
+30.0,0
+40.0,0
+50.0,0
+60.0,0
+70.0,0
+80.0,0
+90.0,0
+100.0,0
+110.0,0
+120.0,0
+130.0,0
+140.0,0
+150.0,0
+160.0,0
+170.0,0
+180.0,0
+190.0,0
+200.0,0
+210.0,0
+220.0,0
+230.0,0
+240.0,0
+250.0,0
+260.0,0
+270.0,0
+280.0,0
+290.0,0
+
+HISTOGRAM OF ANALYSIS GROUP 'on_red:all'
+Time,Count
+0.0,3
+10.0,3
+20.0,6
+30.0,6
+40.0,8
+50.0,9
+60.0,12
+70.0,12
+80.0,10
+90.0,7
+100.0,7
+110.0,11
+120.0,6
+130.0,6
+140.0,7
+150.0,4
+160.0,11
+170.0,8
+180.0,11
+190.0,13
+200.0,13
+210.0,11
+220.0,8
+230.0,3
+240.0,9
+250.0,7
+260.0,7
+270.0,9
+280.0,4
+290.0,8

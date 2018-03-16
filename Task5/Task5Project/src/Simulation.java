@@ -16,7 +16,8 @@ public class Simulation
    {
       Simulation simulation = new Simulation();
 
-      simulation.doTest();
+      //simulation.doTest();
+      simulation.doTest9();
    }
 
    // ---------------------------------------------------------------------------------------------------------------------------------------------------------
